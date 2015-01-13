@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <title>SQL NOTE</title>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
+</head>
+<body>
+  <h1>SQL NOTE</h1>
+  <div id="content">
+    <div>use &nbsp;OSS_Neodicia_cust_nusa_archive_v2;</div><div>use OSS_Neodicia_cust_nusa_live_v2;</div><div>use OSS_Neodicia_neopost_common_v2;</div><div><br></div><div><br></div><div><b>-- Search a group of Tracking Numbers&nbsp;</b></div><div><br></div><div>select ARCH_SHIP_EVT_SHP_HUTrackingNumber from ARCH_SHIP_TrackingEvent&nbsp;</div><div>where ARCH_SHIP_EVT_SHP_HUTrackingNumber REGEXP '93$|77$';&nbsp;</div><div><br></div><div>select * from ARCH_SHIP_TrackingEvent</div><div>where ARCH_SHIP_EVT_SHP_HUTrackingNumber like '67185 and ';</div><div><br></div><div>select ARCH_SHIP_EVT_SHP_HUTrackingNumber from ARCH_SHIP_TrackingEvent&nbsp;</div><div>where ARCH_SHIP_EVT_SHP_HUTrackingNumber REGEXP '999$';&nbsp;</div><div>select * from SHIP_HandlingUnit;&nbsp;</div><div>select * from ARCH_SHIP_TrackingEvent ;&nbsp;</div><div><br></div><div>describe ARCH_SHIP_TrackingEvent;</div><div><br></div><div>select * from userbook;</div><div><br></div><div>select * from SLOC_ShipByAddress;</div><div><br></div><div>select userbook.*,usersettings.*, customergroup.*, customer.CU_id as CU_CU_ParentId from userbook left join usersettings on US_id = UT_US_id left join customer on US_CU_id = CU_id left join customergroup on CG_id = US_CG_id where 1=1 and US_id='84' limit 0,1 ;</div><div>select * from userbook where userbook.US_Name = "ellioh";</div><div><br></div><div>select * from SLOC_ShipByAddress;</div><div><br></div><div><b>-- pass setup wizard ( snapshot )</b></div><div>use OSS_Neodicia_cust_nusa_live;</div><div>update SLOC_ShipByAddress set SLOC_SBA_AddressValidation = "verified" where SLOC_SBA_id=46 ;</div><div>use OSS_Neodicia_cust_nusa_niss;</div><div>update userbook set US_SetupPassed = true where userbook.US_Name = "ellioh";&nbsp;</div><div>--&nbsp;</div><div>&nbsp;</div><div><b>-- GET LAST EVENT BY DATE AND TIME</b></div><div>select * from ARCH_SHIP_TrackingEvent where ARCH_SHIP_EVT_SHP_HUTrackingNumber like "%25184" group by ARCH_SHIP_EVT_EventDate, ARCH_SHIP_EVT_EventTime order by ARCH_SHIP_EVT_EventDate DESC, ARCH_SHIP_EVT_EventTime DESC ;&nbsp;</div><div><span class="Apple-tab-span" style="white-space:pre">	</span></div><div><span class="Apple-tab-span" style="white-space:pre">	</span></div>
+  </div>
+</body>
+</html>

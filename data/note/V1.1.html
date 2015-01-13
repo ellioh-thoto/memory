@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <title>V1.1</title>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
+</head>
+<body>
+  <h1>V1.1</h1>
+  <div id="content">
+    <p class="Text" style="text-align: left; margin-top: 0cm;"><font size="4"><strike>Email Notification</strike></font></p><p class="Text" style="text-align: left; margin-top: 0cm;"></p><ul><li><b>If there is an update
+to the tracking information an email should go out to the recipient if the
+shipper chose to send email notifications. To accommodate this, a flag must be
+added to the shipping history database entry indicating that the shipper is
+requesting that the recipient receive tracking notification emails. </b>Normally we can use the 2 existing flags</li><li><b>Note: 3.1.1.4 of the
+RDD for v1.1 details automatic collection of updated package tracking
+information for all packages not yet delivered. Upon completing this requirement,
+emails should go to the recipient with every update. </b>=&gt;&nbsp;&nbsp;<span style="background-color: rgb(255, 255, 0);">how much time are the tracking data keeped after the release?</span></li><li>Email templates :&nbsp;Supplemental email templates for will be provided at a
+future time.</li></ul><p></p><p class="MsoNormal"><o:p></o:p></p><p class="Text" style="text-align: left; margin-top: 0cm;"><br></p><p class="Text" style="text-align: left; margin-top: 0cm;"><font size="4"><strike>Package tracking</strike></font></p><p class="Text" style="text-align: left; margin-top: 0cm;"></p><ul><li>Tracking information for shipments not yet in delivered
+status will be updated from data provided by a USPS FTP site. An in house
+developed eVS Tracking Module will receive the data from the USPS FTP site. An
+OSS adapter will be responsible for interpreting and saving the relevant data
+received by the eVS Tracking Module into the neoShip Shipping History MySQL
+database. See below for the general architecture designed by Jean Mathieu
+Plagnard. =&gt; <span style="background-color: rgb(255, 255, 0);">Do we receive all data every time we retrieve data from eVs?</span></li><li><span style="background-color: rgb(255, 255, 0);">Why are we using eVs FTP instead of USPS API?</span></li><li>The tracking information on the Shipment List will need to
+be updated for every shipment not in a delivered state each time the pull from
+the USPS FTP site happens. Because the update will now happen automatically,
+the current method allowing users to manually update tracking information for
+shipped packages using the USPS Tracking API is no longer required.</li><li><span style="font-size:10.0pt;font-family:&quot;Arial&quot;,&quot;sans-serif&quot;;
+mso-fareast-font-family:&quot;Times New Roman&quot;;mso-bidi-font-family:&quot;Times New Roman&quot;;
+mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language:AR-SA">New
+“Details” Button:&nbsp;</span></li></ul><div><font face="Arial, sans-serif" size="2"><br></font></div><div><font face="Arial, sans-serif" size="2">- RETRIEVE DATA</font></div><div><font size="2">- Java car possible de le reintegrer sur le serveur de envoy</font></div><div><font size="2">- pour tester creer ftp bouchon</font></div><div><font size="2">- garder la solution webservice + button&nbsp;</font></div><div><font size="2">- affiche le dernier status recupéré par ftp&nbsp;</font></div><div><font size="2">- base de donnée oss&nbsp;</font></div><div><font size="2">- Affichage&nbsp;</font></div><div><ul><li><span style="font-size: small;">api d'envoi de notification email &nbsp;/!\ - a approfondir (appelé par oss)</span></li><ul><li><font size="2">utiliser option trackin step 2&nbsp;</font></li><li><font size="2">warning sur le nombre d'email a envoyer ( fichier peu contenir 10000 lignes)</font></li><li><font size="2">logger chaque notification email /!\ (tracking number, address email, date, heure, id_tracking)</font></li></ul></ul></div><div><ul><li><span style="font-size: 10pt;">purge? usps after 3 month - a definir!</span></li><li><span style="font-size: 10pt;">add an index for tracking tables (a approfondir)&nbsp;</span></li></ul></div><div><font face="Arial, sans-serif" size="2"><br></font></div><font size="4">Mail Class and Extra Services</font><div><font face="Arial, sans-serif" size="2"><br></font></div>New services :<div><p class="MsoListParagraphCxSpFirst"></p><ul><li>Parcel Select NonPresort&nbsp;</li><li><strike>Library Mail&nbsp;</strike></li><li><strike>Media Mail&nbsp;</strike></li><li>BPM NonPresort</li></ul><!--[if !supportLists]--><br>New extra services :&nbsp;</div><div><ul><li>Adult Signature&nbsp;</li><li>Adult Signature Restricted Delivery&nbsp;</li><li>Return Receipt&nbsp;</li><li>Return Receipt Electronic&nbsp;</li><li>Restricted Delivery</li></ul><div><p class="MsoNormal"><o:p>&nbsp;</o:p>Needs :&nbsp;</p><ul><ul><li>Step 3 : Determine the letter for the previous&nbsp;</li></ul><li>Anne question :&nbsp;</li><ul><li><p class="MsoNormal"><b><span style="color:red">Restricted Delivery : What does this means? What are
+restricted conditions? Will we have a text zone to let the user put conditions
+of delivery? Or we will have a list of conditions and the user will
+choose?..... Is there a cost to be displayed?<o:p></o:p></span></b></p></li><li><p class="MsoNormal"><b><span style="color:red"></span></b></p><p class="MsoNormal"><b><span style="color:red">Adult Signature Restricted Delivery: Is there a cost to be
+displayed? Does this mean that we will have POD to display in history? What are
+restricted delivery conditions?</span></b></p></li></ul></ul><div><font color="#ff0000"><b><br></b></font></div><div><font color="#ff0000"><b><br></b></font></div><div><p class="MsoNormal"><font color="#ff0000"><b>Sinon je me suis apercu d’un probleme potentiel avec les
+services MEDIA et LIBRARY lorsque Width/Height/Length &lt; 12”<o:p></o:p></b></font></p>
+
+<p class="MsoNormal"><font color="#ff0000"><b>Il faudra penser a bien tester ces cas.</b></font><o:p></o:p></p></div><o:p></o:p><p></p>
+
+<p class="MsoNormal"><o:p><font size="4"><strike>&nbsp;Addressbook</strike> :&nbsp;</font></o:p></p><p class="MsoNormal"></p><ul><li><span style="font-size: small;">“The system will allow the user to select a recipient and drill down to view shipping history details for that&nbsp;</span><span style="font-size: small;">recipient. The details will include but are not limited to: Ship Date, Status, Tracking Number, Mail Class,&nbsp;</span><span style="font-size: small;">and Extra Services.” (RDD, packageAssistant v1.1, 3.1.1.5)</span></li></ul><font size="2"><br></font><ul><li><span style="background-color: rgb(255, 229, 153);"><font size="2">(?) For the purpose of this requirement, Extra Services will be disregarded in the above statement. It will be</font><span style="font-size: small;">addressed in a separate requirement addressing advancements in Shipping History.</span></span></li></ul><p></p></div></div><div><div><p class="MsoNormal"><o:p><br></o:p></p><p class="MsoNormal"><o:p><br></o:p></p><p class="MsoNormal"><o:p>retrieve outlook on hold</o:p></p><p class="MsoNormal"><o:p>import not ok&nbsp;</o:p></p><p class="MsoNormal"><o:p><br></o:p></p><p class="MsoNormal"><o:p>Mail classes :&nbsp;</o:p></p><p class="MsoNormal"><o:p>wait spec usps</o:p></p><p class="MsoNormal"><o:p><br></o:p></p><p class="MsoNormal"><o:p>history:</o:p></p><p class="MsoNormal"><o:p>add column for loupe icon - wait spec confirmation</o:p></p><p class="MsoNormal"><o:p><font size="4"><b><br></b></font></o:p></p><p class="MsoNormal"><o:p><font size="4"><b>Pickup - Mailstream entry</b></font></o:p></p><div><ul><li>Check pickup request cases</li><li>When to select pickup? menu? step 2?&nbsp;</li><li><br></li></ul></div></div> <p></p></div><p></p><p class="MsoNormal"><o:p></o:p></p><p class="MsoNormal"><o:p></o:p></p>
+  </div>
+</body>
+</html>

@@ -1,0 +1,57 @@
+#left
+{
+    width: 200px;
+    float: left;
+    background-color: #ebebeb;
+    padding: 5px 0 0 8px;
+    font-size: 80%;
+
+
+    color: #575757;
+
+    line-height: 1.5;
+
+}
+
+#left a{
+    text-decoration: none;
+    font-weight: normal;
+}
+#right
+{
+    /*position: absolute;*/
+    /*position: absolute;*/
+    /*margin-left: 220px; *//* Change this to whatever the width of your left column is*/
+    margin: 0 0 0px 220px;
+    width: auto;
+    /*top: 0;*/
+}
+
+.clear
+{
+    clear: both;
+}
+
+.hidden {
+    display: none;
+}
+
+#footer {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+}
+
+.left_menu_item_parent {
+    border-bottom: 1px solid #d3d3d3;
+}
+
+.top-menu-action-buttons{
+    float: right;
+    width: 200px;
+}
+
+*{
+    font-family: 'Gloria Hallelujah', cursive;
+    /*font-family: 'Patrick Hand', cursive;*/
+}

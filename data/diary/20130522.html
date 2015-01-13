@@ -1,0 +1,495 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <title>20130522</title>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
+</head>
+<body>
+  <h1>20130522</h1>
+  <div id="content">
+    <br><div><div><div style="text-indent: -24px;">&nbsp; &nbsp; &nbsp;&nbsp;<span style="text-indent: -18pt;">Weighing js unit tests</span></div><ul><li><span style="text-indent: -18pt;">Manage cron qc &nbsp;3h</span></li><li><span style="background-color: rgb(0, 255, 255);">Jenkins installation ( 50% : build script ok, access issue =&gt; server firewall)</span></li><ul><li><strike>build QC</strike>&nbsp;ok&nbsp;</li><li>Deploy QC</li><ul><li>node creation&nbsp;</li><ul><li><span style="background-color: rgb(255, 255, 255);"><strike>port 48084 rule (for jnlp communication )</strike>&nbsp;&nbsp;not needed</span></li><li><strike style="background-color: rgb(255, 255, 255);">ssh connection attempt --&nbsp;</strike></li><ul><li><strike style="background-color: rgb(255, 255, 255);">create a jenkins user on the slave</strike></li><span style="background-color: rgb(255, 255, 255);"><strike>Memo : If your project has external dependencies (like a special ~/.m2/settings.xml, or a special version of java), you'll need to set that up yourself, though.&nbsp;</strike>not needed</span><li><strike style="background-color: rgb(255, 255, 255);">ssh rules between servers&nbsp;<a href="http://www.linuxproblem.org/art_9.html">http://www.linuxproblem.org/art_9.html</a></strike></li><strike style="background-color: rgb(255, 255, 255);">just set user/password credential for root</strike></ul></ul></ul><li>Daily snapshot</li><ul><li><strike>Add node rooteth@cav-dev-oss-2</strike></li><li><strike>create user niss:/oss</strike></li><li><strike>configuration apache ok</strike></li><li><span style="background-color: rgb(0, 255, 255);">script de modification de configuration =&gt; we will&nbsp;rather&nbsp;use different env !&nbsp;</span></li></ul><li><strike style="background-color: rgb(255, 255, 255);">Envoy deployment script on cav-stg =&gt; OK</strike></li></ul><li><span style="background-color: rgb(255, 255, 255);"><strike>Release 20 check :&nbsp;&nbsp;</strike></span></li><ul><li><span style="background-color: rgb(255, 255, 255);"><strike>To check:&nbsp;</strike></span></li><ul><li><strike>EP-426 : todo:&nbsp;<span style="background-color: rgb(255, 255, 0);">try reproduce after end of deploymen</span>t and&nbsp;review code fix (JM fixed it : point 1.2.3 ok but not 4)&nbsp;-<span style="background-color: rgb(255, 255, 255);">&nbsp;Fix seems ok</span></strike></li></ul></ul></ul><blockquote style="margin: 0px 0px 0px 40px; border: none; padding: 0px;"><blockquote style="margin: 0px 0px 0px 40px; border: none; padding: 0px;"><blockquote style="margin: 0px 0px 0px 40px; border: none; padding: 0px;"><div><strike>Trung : I can't go to Step 4 with Priority Mail Gift Card Flat Rate Envelope package</strike></div><div><strike>I always get a message in Step 3 "GIFT CARD FLAT RATE ENVEL is an invalid container type for a REGULAR package and PRIORITY COMMERCIAL service"</strike></div><div><strike>JM :&nbsp;Make sure to apply the above SQL patch and clear all your cache (JS, memcache, etc). And re-create the package in step1 as well.</strike></div></blockquote></blockquote></blockquote><ul><li><span style="background-color: rgb(255, 255, 0);"><strike>To check and transfer :&nbsp;<a class="issue-link" data-issue-key="EP-107" href="https://nidamerica.atlassian.net/browse/EP-107" id="key-val" rel="10736" style="color: rgb(51, 51, 51);">EP-107</a></strike></span></li><li><span style="background-color: rgb(255, 255, 0);"><strike>QC integration R20 support :&nbsp;</strike></span></li></ul><div><table class="MsoNormalTable" border="0" cellspacing="0" cellpadding="0" width="607" style="width:455.0pt;margin-left:4.65pt;border-collapse:collapse;mso-yfti-tbllook:
+ 1184;mso-padding-alt:0cm 0cm 0cm 0cm">
+ <tbody><tr style="mso-yfti-irow:0;mso-yfti-firstrow:yes;height:12.75pt">
+  <td width="35" valign="bottom" style="width:26.0pt;border:solid black 1.5pt;
+  padding:0cm 5.4pt 0cm 5.4pt;height:12.75pt">
+  <p class="MsoNormal" align="center" style="text-align:center"><b><span style="font-size:12.0pt;font-family:&quot;Cambria&quot;,&quot;serif&quot;;color:#1F497D">#<o:p></o:p></span></b></p>
+  </td>
+  <td width="87" valign="bottom" style="width:65.0pt;border:solid black 1.5pt;
+  border-left:none;padding:0cm 5.4pt 0cm 5.4pt;height:12.75pt">
+  <p class="MsoNormal" align="center" style="text-align:center"><b><span style="font-size:12.0pt;font-family:&quot;Cambria&quot;,&quot;serif&quot;;color:#1F497D">Defect
+  ID<o:p></o:p></span></b></p>
+  </td>
+  <td width="248" valign="bottom" style="width:186.0pt;border:solid black 1.5pt;
+  border-left:none;padding:0cm 5.4pt 0cm 5.4pt;height:12.75pt">
+  <p class="MsoNormal" align="center" style="text-align:center"><b><span style="font-size:12.0pt;font-family:&quot;Cambria&quot;,&quot;serif&quot;;color:#1F497D">Title<o:p></o:p></span></b></p>
+  </td>
+  <td width="111" valign="bottom" style="width:83.0pt;border:solid black 1.5pt;
+  border-left:none;padding:0cm 5.4pt 0cm 5.4pt;height:12.75pt">
+  <p class="MsoNormal" align="center" style="text-align:center"><b><span style="font-size:12.0pt;font-family:&quot;Cambria&quot;,&quot;serif&quot;;color:#1F497D">Test
+  Case ID<o:p></o:p></span></b></p>
+  </td>
+  <td width="127" valign="bottom" style="width:95.0pt;border:solid black 1.5pt;
+  border-left:none;padding:0cm 5.4pt 0cm 5.4pt;height:12.75pt">
+  <p class="MsoNormal" align="center" style="text-align:center"><b><span style="font-size:12.0pt;font-family:&quot;Cambria&quot;,&quot;serif&quot;;color:#1F497D">Notice<span>&nbsp; &nbsp;</span><o:p></o:p></span></b></p>
+  </td>
+ </tr>
+ <tr style="mso-yfti-irow:1;height:25.5pt">
+  <td width="35" valign="bottom" style="width:26.0pt;border:solid black 1.0pt;
+  border-top:none;padding:0cm 5.4pt 0cm 5.4pt;height:25.5pt">
+  <p class="MsoNormal" align="right" style="text-align:right"><span style="font-size: 12pt; font-family: Cambria, serif; color: rgb(31, 73, 125); background-color: rgb(153, 153, 153);">1<o:p></o:p></span></p>
+  </td>
+  <td width="87" valign="bottom" style="width:65.0pt;border-top:none;border-left:
+  none;border-bottom:solid black 1.0pt;border-right:solid black 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt;height:25.5pt">
+  <p class="MsoNormal" align="right" style="text-align:right"><span style="font-size: 12pt; font-family: Cambria, serif; color: rgb(31, 73, 125); background-color: rgb(153, 153, 153);">1942974<o:p></o:p></span></p>
+  </td>
+  <td width="248" valign="bottom" style="width:186.0pt;border-top:none;border-left:
+  none;border-bottom:solid black 1.0pt;border-right:solid black 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt;height:25.5pt">
+  <p class="MsoNormal"><span style="font-size: 12pt; font-family: Cambria, serif; color: rgb(31, 73, 125); background-color: rgb(153, 153, 153);">[SP20][EP-426] Unable to print due SQL constraint<o:p></o:p></span></p>
+  </td>
+  <td width="111" valign="bottom" style="width:83.0pt;border-top:none;border-left:
+  none;border-bottom:solid black 1.0pt;border-right:solid black 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt;height:25.5pt">
+  <p class="MsoNormal"><span style="font-size: 12pt; font-family: Cambria, serif; color: rgb(31, 73, 125); background-color: rgb(153, 153, 153);">EP426<o:p></o:p></span></p>
+  </td>
+  <td width="127" valign="bottom" style="width:95.0pt;border-top:none;border-left:
+  none;border-bottom:solid black 1.0pt;border-right:solid black 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt;height:25.5pt">
+  <p class="MsoNormal"><span style="font-size: 12pt; font-family: Cambria, serif; color: rgb(31, 73, 125);"><span style="background-color: rgb(153, 153, 153);">&nbsp;Previous release 19v2</span><o:p></o:p></span></p>
+  </td>
+ </tr>
+ <tr style="mso-yfti-irow:2;height:51.0pt">
+  <td width="35" valign="bottom" style="width:26.0pt;border:solid black 1.0pt;
+  border-top:none;padding:0cm 5.4pt 0cm 5.4pt;height:51.0pt">
+  <p class="MsoNormal" align="right" style="text-align:right"><span style="font-size: 12pt; font-family: Cambria, serif; color: rgb(31, 73, 125); background-color: rgb(0, 255, 0);"><strike>2<o:p></o:p></strike></span></p>
+  </td>
+  <td width="87" valign="bottom" style="width:65.0pt;border-top:none;border-left:
+  none;border-bottom:solid black 1.0pt;border-right:solid black 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt;height:51.0pt">
+  <p class="MsoNormal" align="right" style="text-align:right"><span style="font-size: 12pt; font-family: Cambria, serif; color: rgb(31, 73, 125); background-color: rgb(0, 255, 0);"><strike>1942319<o:p></o:p></strike></span></p>
+  </td>
+  <td width="248" valign="bottom" style="width:186.0pt;border-top:none;border-left:
+  none;border-bottom:solid black 1.0pt;border-right:solid black 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt;height:51.0pt">
+  <p class="MsoNormal"><span style="font-size: 12pt; font-family: Cambria, serif; color: rgb(31, 73, 125); background-color: rgb(0, 255, 0);"><strike>[SP20][EP-180] DE181:: Shipping History: The system does not
+  keep tracking information as expected<o:p></o:p></strike></span></p>
+  </td>
+  <td width="111" valign="bottom" style="width:83.0pt;border-top:none;border-left:
+  none;border-bottom:solid black 1.0pt;border-right:solid black 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt;height:51.0pt">
+  <p class="MsoNormal"><span style="font-size: 12pt; font-family: Cambria, serif; color: rgb(31, 73, 125); background-color: rgb(0, 255, 0);"><strike>EP180<o:p></o:p></strike></span></p>
+  </td>
+  <td width="127" valign="bottom" style="width:95.0pt;border-top:none;border-left:
+  none;border-bottom:solid black 1.0pt;border-right:solid black 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt;height:51.0pt">
+  <p class="MsoNormal"><span style="font-size: 12pt; font-family: Cambria, serif; color: rgb(31, 73, 125); background-color: rgb(0, 255, 0);"><strike>&nbsp;</strike><o:p></o:p></span></p>
+  </td>
+ </tr>
+ <tr style="mso-yfti-irow:3;height:25.5pt">
+  <td width="35" valign="bottom" style="width:26.0pt;border:solid black 1.0pt;
+  border-top:none;padding:0cm 5.4pt 0cm 5.4pt;height:25.5pt">
+  <p class="MsoNormal" align="right" style="text-align:right"><span style="font-size: 12pt; font-family: Cambria, serif; color: rgb(31, 73, 125); background-color: rgb(0, 255, 0);">3<o:p></o:p></span></p>
+  </td>
+  <td width="87" valign="bottom" style="width:65.0pt;border-top:none;border-left:
+  none;border-bottom:solid black 1.0pt;border-right:solid black 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt;height:25.5pt">
+  <p class="MsoNormal" align="right" style="text-align:right"><span style="font-size: 12pt; font-family: Cambria, serif; color: rgb(31, 73, 125); background-color: rgb(0, 255, 0);"><strike>1942306<o:p></o:p></strike></span></p>
+  </td>
+  <td width="248" valign="bottom" style="width:186.0pt;border-top:none;border-left:
+  none;border-bottom:solid black 1.0pt;border-right:solid black 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt;height:25.5pt">
+  <p class="MsoNormal"><span style="font-size: 12pt; font-family: Cambria, serif; color: rgb(31, 73, 125); background-color: rgb(0, 255, 0);"><strike>[SP20][EP-272] DE273:: To hide country dropdown from forms<o:p></o:p></strike></span></p>
+  </td>
+  <td width="111" valign="bottom" style="width:83.0pt;border-top:none;border-left:
+  none;border-bottom:solid black 1.0pt;border-right:solid black 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt;height:25.5pt">
+  <p class="MsoNormal"><span style="font-size: 12pt; font-family: Cambria, serif; color: rgb(31, 73, 125); background-color: rgb(0, 255, 0);"><strike>EP272<o:p></o:p></strike></span></p>
+  </td>
+  <td width="127" valign="bottom" style="width:95.0pt;border-top:none;border-left:
+  none;border-bottom:solid black 1.0pt;border-right:solid black 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt;height:25.5pt">
+  <p class="MsoNormal"><span style="font-size: 12pt; font-family: Cambria, serif; color: rgb(31, 73, 125); background-color: rgb(0, 255, 0);"><strike>&nbsp;<o:p></o:p></strike></span></p>
+  </td>
+ </tr>
+ <tr style="mso-yfti-irow:4;height:51.0pt">
+  <td width="35" valign="bottom" style="width:26.0pt;border:solid black 1.0pt;
+  border-top:none;padding:0cm 5.4pt 0cm 5.4pt;height:51.0pt">
+  <p class="MsoNormal" align="right" style="text-align:right"><span style="font-size: 12pt; font-family: Cambria, serif; color: rgb(31, 73, 125); background-color: rgb(0, 255, 0);"><strike>4<o:p></o:p></strike></span></p>
+  </td>
+  <td width="87" valign="bottom" style="width:65.0pt;border-top:none;border-left:
+  none;border-bottom:solid black 1.0pt;border-right:solid black 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt;height:51.0pt">
+  <p class="MsoNormal" align="right" style="text-align:right"><span style="font-size: 12pt; font-family: Cambria, serif; color: rgb(31, 73, 125); background-color: rgb(0, 255, 0);"><strike>1942303<o:p></o:p></strike></span></p>
+  </td>
+  <td width="248" valign="bottom" style="width:186.0pt;border-top:none;border-left:
+  none;border-bottom:solid black 1.0pt;border-right:solid black 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt;height:51.0pt">
+  <p class="MsoNormal"><span style="font-size: 12pt; font-family: Cambria, serif; color: rgb(31, 73, 125); background-color: rgb(0, 255, 0);"><strike>[SP20][EP-273] DE274:: To add additional information in the
+  dialog box which validates java is not installed<o:p></o:p></strike></span></p>
+  </td>
+  <td width="111" valign="bottom" style="width:83.0pt;border-top:none;border-left:
+  none;border-bottom:solid black 1.0pt;border-right:solid black 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt;height:51.0pt">
+  <p class="MsoNormal"><span style="font-size: 12pt; font-family: Cambria, serif; color: rgb(31, 73, 125); background-color: rgb(0, 255, 0);"><strike>EP273<o:p></o:p></strike></span></p>
+  </td>
+  <td width="127" valign="bottom" style="width:95.0pt;border-top:none;border-left:
+  none;border-bottom:solid black 1.0pt;border-right:solid black 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt;height:51.0pt">
+  <p class="MsoNormal"><span style="font-size: 12pt; font-family: Cambria, serif; color: rgb(31, 73, 125); background-color: rgb(0, 255, 0);"><strike>&nbsp;<o:p></o:p></strike></span></p>
+  </td>
+ </tr>
+ <tr style="mso-yfti-irow:5;height:38.25pt">
+  <td width="35" valign="bottom" style="width:26.0pt;border:solid black 1.0pt;
+  border-top:none;padding:0cm 5.4pt 0cm 5.4pt;height:38.25pt">
+  <p class="MsoNormal" align="right" style="text-align:right"><span style="font-size: 12pt; font-family: Cambria, serif; color: rgb(31, 73, 125); background-color: rgb(0, 255, 0);"><strike>5<o:p></o:p></strike></span></p>
+  </td>
+  <td width="87" valign="bottom" style="width:65.0pt;border-top:none;border-left:
+  none;border-bottom:solid black 1.0pt;border-right:solid black 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt;height:38.25pt">
+  <p class="MsoNormal" align="right" style="text-align:right"><span style="font-size: 12pt; font-family: Cambria, serif; color: rgb(31, 73, 125); background-color: rgb(0, 255, 0);"><strike>1942290<o:p></o:p></strike></span></p>
+  </td>
+  <td width="248" valign="bottom" style="width:186.0pt;border-top:none;border-left:
+  none;border-bottom:solid black 1.0pt;border-right:solid black 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt;height:38.25pt">
+  <p class="MsoNormal"><span style="font-size: 12pt; font-family: Cambria, serif; color: rgb(31, 73, 125); background-color: rgb(0, 255, 0);"><strike>[SP20] [EP-283] To validate when neoFunds returns no response
+  or an invalid one<o:p></o:p></strike></span></p>
+  </td>
+  <td width="111" valign="bottom" style="width:83.0pt;border-top:none;border-left:
+  none;border-bottom:solid black 1.0pt;border-right:solid black 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt;height:38.25pt">
+  <p class="MsoNormal"><span style="font-size: 12pt; font-family: Cambria, serif; color: rgb(31, 73, 125); background-color: rgb(0, 255, 0);"><strike>EP283</strike><o:p></o:p></span></p>
+  </td>
+  <td width="127" valign="bottom" style="width:95.0pt;border-top:none;border-left:
+  none;border-bottom:solid black 1.0pt;border-right:solid black 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt;height:38.25pt">
+  <p class="MsoNormal"><span style="font-size:12.0pt;font-family:&quot;Cambria&quot;,&quot;serif&quot;;
+  color:#1F497D"><span style="background-color: rgb(0, 255, 0);">&nbsp;</span><o:p></o:p></span></p>
+  </td>
+ </tr>
+ <tr style="mso-yfti-irow:6;height:25.5pt">
+  <td width="35" valign="bottom" style="width:26.0pt;border:solid black 1.0pt;
+  border-top:none;padding:0cm 5.4pt 0cm 5.4pt;height:25.5pt">
+  <p class="MsoNormal" align="right" style="text-align:right"><span style="font-size: 12pt; font-family: Cambria, serif; color: rgb(31, 73, 125); background-color: rgb(153, 153, 153);">6<o:p></o:p></span></p>
+  </td>
+  <td width="87" valign="bottom" style="width:65.0pt;border-top:none;border-left:
+  none;border-bottom:solid black 1.0pt;border-right:solid black 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt;height:25.5pt">
+  <p class="MsoNormal" align="right" style="text-align:right"><span style="font-size: 12pt; font-family: Cambria, serif; color: rgb(31, 73, 125); background-color: rgb(153, 153, 153);">1942284<o:p></o:p></span></p>
+  </td>
+  <td width="248" valign="bottom" style="width:186.0pt;border-top:none;border-left:
+  none;border-bottom:solid black 1.0pt;border-right:solid black 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt;height:25.5pt">
+  <p class="MsoNormal"><span style="font-size: 12pt; font-family: Cambria, serif; color: rgb(31, 73, 125); background-color: rgb(153, 153, 153);">[SP20] [EP-306] To have today's date as default on step 3<o:p></o:p></span></p>
+  </td>
+  <td width="111" valign="bottom" style="width:83.0pt;border-top:none;border-left:
+  none;border-bottom:solid black 1.0pt;border-right:solid black 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt;height:25.5pt">
+  <p class="MsoNormal"><span style="font-size: 12pt; font-family: Cambria, serif; color: rgb(31, 73, 125); background-color: rgb(153, 153, 153);">EP306<o:p></o:p></span></p>
+  </td>
+  <td width="127" valign="bottom" style="width:95.0pt;border-top:none;border-left:
+  none;border-bottom:solid black 1.0pt;border-right:solid black 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt;height:25.5pt">
+  <p class="MsoNormal"><font color="#1f497d" face="Cambria, serif" style="background-color: rgb(153, 153, 153);">Previous release</font></p>
+  </td>
+ </tr>
+ <tr style="mso-yfti-irow:7;height:25.5pt">
+  <td width="35" valign="bottom" style="width:26.0pt;border:solid black 1.0pt;
+  border-top:none;padding:0cm 5.4pt 0cm 5.4pt;height:25.5pt">
+  <p class="MsoNormal" align="right" style="text-align:right"><span style="font-size: 12pt; font-family: Cambria, serif; color: rgb(31, 73, 125); background-color: rgb(0, 255, 0);"><strike>7<o:p></o:p></strike></span></p>
+  </td>
+  <td width="87" valign="bottom" style="width:65.0pt;border-top:none;border-left:
+  none;border-bottom:solid black 1.0pt;border-right:solid black 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt;height:25.5pt">
+  <p class="MsoNormal" align="right" style="text-align:right"><span style="font-size: 12pt; font-family: Cambria, serif; color: rgb(31, 73, 125); background-color: rgb(0, 255, 0);"><strike>1942263<o:p></o:p></strike></span></p>
+  </td>
+  <td width="248" valign="bottom" style="width:186.0pt;border-top:none;border-left:
+  none;border-bottom:solid black 1.0pt;border-right:solid black 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt;height:25.5pt">
+  <p class="MsoNormal"><span style="font-size: 12pt; font-family: Cambria, serif; color: rgb(31, 73, 125); background-color: rgb(0, 255, 0);"><strike>[SP20][EP-354] Default setting are set to print without prompt<o:p></o:p></strike></span></p>
+  </td>
+  <td width="111" valign="bottom" style="width:83.0pt;border-top:none;border-left:
+  none;border-bottom:solid black 1.0pt;border-right:solid black 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt;height:25.5pt">
+  <p class="MsoNormal"><span style="font-size: 12pt; font-family: Cambria, serif; color: rgb(31, 73, 125); background-color: rgb(0, 255, 0);"><strike>EP354<o:p></o:p></strike></span></p>
+  </td>
+  <td width="127" valign="bottom" style="width:95.0pt;border-top:none;border-left:
+  none;border-bottom:solid black 1.0pt;border-right:solid black 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt;height:25.5pt">
+  <p class="MsoNormal"><span style="font-size: 12pt; font-family: Cambria, serif; color: rgb(31, 73, 125); background-color: rgb(0, 255, 0);"><strike>&nbsp;<o:p></o:p></strike></span></p>
+  </td>
+ </tr>
+ <tr style="mso-yfti-irow:8;height:38.25pt">
+  <td width="35" valign="bottom" style="width:26.0pt;border:solid black 1.0pt;
+  border-top:none;padding:0cm 5.4pt 0cm 5.4pt;height:38.25pt">
+  <p class="MsoNormal" align="right" style="text-align:right"><span style="font-size: 12pt; font-family: Cambria, serif; color: rgb(31, 73, 125); background-color: rgb(0, 255, 0);"><strike>8<o:p></o:p></strike></span></p>
+  </td>
+  <td width="87" valign="bottom" style="width:65.0pt;border-top:none;border-left:
+  none;border-bottom:solid black 1.0pt;border-right:solid black 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt;height:38.25pt">
+  <p class="MsoNormal" align="right" style="text-align:right"><span style="font-size: 12pt; font-family: Cambria, serif; color: rgb(31, 73, 125); background-color: rgb(0, 255, 0);"><strike>1942252<o:p></o:p></strike></span></p>
+  </td>
+  <td width="248" valign="bottom" style="width:186.0pt;border-top:none;border-left:
+  none;border-bottom:solid black 1.0pt;border-right:solid black 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt;height:38.25pt">
+  <p class="MsoNormal"><span style="font-size: 12pt; font-family: Cambria, serif; color: rgb(31, 73, 125); background-color: rgb(0, 255, 0);"><strike>[SP20][EP-382] Cannot turn on manual entry when PC-Adaptor is
+  not installed<o:p></o:p></strike></span></p>
+  </td>
+  <td width="111" valign="bottom" style="width:83.0pt;border-top:none;border-left:
+  none;border-bottom:solid black 1.0pt;border-right:solid black 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt;height:38.25pt">
+  <p class="MsoNormal"><span style="font-size: 12pt; font-family: Cambria, serif; color: rgb(31, 73, 125); background-color: rgb(0, 255, 0);"><strike>EP382</strike><o:p></o:p></span></p>
+  </td>
+  <td width="127" valign="bottom" style="width:95.0pt;border-top:none;border-left:
+  none;border-bottom:solid black 1.0pt;border-right:solid black 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt;height:38.25pt">
+  <p class="MsoNormal"><span style="font-size:12.0pt;font-family:&quot;Cambria&quot;,&quot;serif&quot;;
+  color:#1F497D"><span style="background-color: rgb(0, 255, 0);">&nbsp;</span><o:p></o:p></span></p>
+  </td>
+ </tr>
+ <tr style="mso-yfti-irow:9;height:38.25pt">
+  <td width="35" valign="bottom" style="width:26.0pt;border:solid black 1.0pt;
+  border-top:none;padding:0cm 5.4pt 0cm 5.4pt;height:38.25pt">
+  <p class="MsoNormal" align="right" style="text-align:right"><span style="font-size: 12pt; font-family: Cambria, serif; color: rgb(31, 73, 125); background-color: rgb(153, 153, 153);">9<o:p></o:p></span></p>
+  </td>
+  <td width="87" valign="bottom" style="width:65.0pt;border-top:none;border-left:
+  none;border-bottom:solid black 1.0pt;border-right:solid black 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt;height:38.25pt">
+  <p class="MsoNormal" align="right" style="text-align:right"><span style="font-size: 12pt; font-family: Cambria, serif; color: rgb(31, 73, 125); background-color: rgb(153, 153, 153);">1942244<o:p></o:p></span></p>
+  </td>
+  <td width="248" valign="bottom" style="width:186.0pt;border-top:none;border-left:
+  none;border-bottom:solid black 1.0pt;border-right:solid black 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt;height:38.25pt">
+  <p class="MsoNormal"><span style="font-size: 12pt; font-family: Cambria, serif; color: rgb(31, 73, 125); background-color: rgb(153, 153, 153);">[SP20][EP-394] Change extra service label on creation package
+  screen "Signature Required"<o:p></o:p></span></p>
+  </td>
+  <td width="111" valign="bottom" style="width:83.0pt;border-top:none;border-left:
+  none;border-bottom:solid black 1.0pt;border-right:solid black 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt;height:38.25pt">
+  <p class="MsoNormal"><span style="font-size: 12pt; font-family: Cambria, serif; color: rgb(31, 73, 125); background-color: rgb(153, 153, 153);">EP394<o:p></o:p></span></p>
+  </td>
+  <td width="127" valign="bottom" style="width:95.0pt;border-top:none;border-left:
+  none;border-bottom:solid black 1.0pt;border-right:solid black 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt;height:38.25pt">
+  <p class="MsoNormal"><span style="font-size:12.0pt;font-family:&quot;Cambria&quot;,&quot;serif&quot;;
+  color:#1F497D"><span style="background-color: rgb(153, 153, 153);">&nbsp;Previous release</span><o:p></o:p></span></p>
+  </td>
+ </tr>
+ <tr style="mso-yfti-irow:10;height:25.5pt">
+  <td width="35" valign="bottom" style="width:26.0pt;border:solid black 1.0pt;
+  border-top:none;padding:0cm 5.4pt 0cm 5.4pt;height:25.5pt">
+  <p class="MsoNormal" align="right" style="text-align:right"><span style="font-size: 12pt; font-family: Cambria, serif; color: rgb(31, 73, 125); background-color: rgb(0, 255, 0);">10<o:p></o:p></span></p>
+  </td>
+  <td width="87" valign="bottom" style="width:65.0pt;border-top:none;border-left:
+  none;border-bottom:solid black 1.0pt;border-right:solid black 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt;height:25.5pt">
+  <p class="MsoNormal" align="right" style="text-align:right"><span style="font-size: 12pt; font-family: Cambria, serif; color: rgb(31, 73, 125); background-color: rgb(0, 255, 0);"><strike>1942240<o:p></o:p></strike></span></p>
+  </td>
+  <td width="248" valign="bottom" style="width:186.0pt;border-top:none;border-left:
+  none;border-bottom:solid black 1.0pt;border-right:solid black 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt;height:25.5pt">
+  <p class="MsoNormal"><span style="font-size: 12pt; font-family: Cambria, serif; color: rgb(31, 73, 125); background-color: rgb(0, 255, 0);"><strike>[SP20][EP-406] To merge security leak fix from OSS SGP<o:p></o:p></strike></span></p>
+  </td>
+  <td width="111" valign="bottom" style="width:83.0pt;border-top:none;border-left:
+  none;border-bottom:solid black 1.0pt;border-right:solid black 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt;height:25.5pt">
+  <p class="MsoNormal"><span style="font-size: 12pt; font-family: Cambria, serif; color: rgb(31, 73, 125); background-color: rgb(0, 255, 0);"><strike>EP406<o:p></o:p></strike></span></p>
+  </td>
+  <td width="127" valign="bottom" style="width:95.0pt;border-top:none;border-left:
+  none;border-bottom:solid black 1.0pt;border-right:solid black 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt;height:25.5pt">
+  <p class="MsoNormal"><span style="font-size:12.0pt;font-family:&quot;Cambria&quot;,&quot;serif&quot;;
+  color:#1F497D"><strike style="background-color: rgb(0, 255, 0);">&nbsp;improvement</strike><o:p></o:p></span></p>
+  </td>
+ </tr>
+ <tr style="mso-yfti-irow:11;height:25.5pt">
+  <td width="35" valign="bottom" style="width:26.0pt;border:solid black 1.0pt;
+  border-top:none;padding:0cm 5.4pt 0cm 5.4pt;height:25.5pt">
+  <p class="MsoNormal" align="right" style="text-align:right"><span style="font-size: 12pt; font-family: Cambria, serif; color: rgb(31, 73, 125); background-color: rgb(153, 153, 153);">11<o:p></o:p></span></p>
+  </td>
+  <td width="87" valign="bottom" style="width:65.0pt;border-top:none;border-left:
+  none;border-bottom:solid black 1.0pt;border-right:solid black 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt;height:25.5pt">
+  <p class="MsoNormal" align="right" style="text-align:right"><span style="font-size: 12pt; font-family: Cambria, serif; color: rgb(31, 73, 125); background-color: rgb(153, 153, 153);">1942237<o:p></o:p></span></p>
+  </td>
+  <td width="248" valign="bottom" style="width:186.0pt;border-top:none;border-left:
+  none;border-bottom:solid black 1.0pt;border-right:solid black 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt;height:25.5pt">
+  <p class="MsoNormal"><span style="font-size: 12pt; font-family: Cambria, serif; color: rgb(31, 73, 125); background-color: rgb(153, 153, 153);">[SP20][EP-442] To have today's date as default on step 3<o:p></o:p></span></p>
+  </td>
+  <td width="111" valign="bottom" style="width:83.0pt;border-top:none;border-left:
+  none;border-bottom:solid black 1.0pt;border-right:solid black 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt;height:25.5pt">
+  <p class="MsoNormal"><span style="font-size: 12pt; font-family: Cambria, serif; color: rgb(31, 73, 125); background-color: rgb(153, 153, 153);">EP442<o:p></o:p></span></p>
+  </td>
+  <td width="127" valign="bottom" style="width:95.0pt;border-top:none;border-left:
+  none;border-bottom:solid black 1.0pt;border-right:solid black 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt;height:25.5pt">
+  <p class="MsoNormal"><span style="font-size:12.0pt;font-family:&quot;Cambria&quot;,&quot;serif&quot;;
+  color:#1F497D"><span style="background-color: rgb(153, 153, 153);">&nbsp;Previous release<span>&nbsp;&nbsp; &nbsp;</span></span><o:p></o:p></span></p>
+  </td>
+ </tr>
+ <tr style="mso-yfti-irow:12;height:51.0pt">
+  <td width="35" valign="bottom" style="width:26.0pt;border:solid black 1.0pt;
+  border-top:none;padding:0cm 5.4pt 0cm 5.4pt;height:51.0pt">
+  <p class="MsoNormal" align="right" style="text-align:right"><span style="font-size: 12pt; font-family: Cambria, serif; color: rgb(31, 73, 125); background-color: rgb(153, 153, 153);">12<o:p></o:p></span></p>
+  </td>
+  <td width="87" valign="bottom" style="width:65.0pt;border-top:none;border-left:
+  none;border-bottom:solid black 1.0pt;border-right:solid black 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt;height:51.0pt">
+  <p class="MsoNormal" align="right" style="text-align:right"><span style="font-size: 12pt; font-family: Cambria, serif; color: rgb(31, 73, 125); background-color: rgb(153, 153, 153);">1942233<o:p></o:p></span></p>
+  </td>
+  <td width="248" valign="bottom" style="width:186.0pt;border-top:none;border-left:
+  none;border-bottom:solid black 1.0pt;border-right:solid black 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt;height:51.0pt">
+  <p class="MsoNormal"><span style="font-size: 12pt; font-family: Cambria, serif; color: rgb(31, 73, 125); background-color: rgb(153, 153, 153);">[SP20] [EP-444] DE274:: To add additional information in the
+  dialog box which validates java is not installed<o:p></o:p></span></p>
+  </td>
+  <td width="111" valign="bottom" style="width:83.0pt;border-top:none;border-left:
+  none;border-bottom:solid black 1.0pt;border-right:solid black 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt;height:51.0pt">
+  <p class="MsoNormal"><span style="font-size: 12pt; font-family: Cambria, serif; color: rgb(31, 73, 125); background-color: rgb(153, 153, 153);">EP444<o:p></o:p></span></p>
+  </td>
+  <td width="127" valign="bottom" style="width:95.0pt;border-top:none;border-left:
+  none;border-bottom:solid black 1.0pt;border-right:solid black 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt;height:51.0pt">
+  <p class="MsoNormal"><span style="font-size:12.0pt;font-family:&quot;Cambria&quot;,&quot;serif&quot;;
+  color:#1F497D"><span style="background-color: rgb(153, 153, 153);">&nbsp;Doublon 273</span><o:p></o:p></span></p>
+  </td>
+ </tr>
+ <tr style="mso-yfti-irow:13;height:25.5pt">
+  <td width="35" valign="bottom" style="width:26.0pt;border:solid black 1.0pt;
+  border-top:none;padding:0cm 5.4pt 0cm 5.4pt;height:25.5pt">
+  <p class="MsoNormal" align="right" style="text-align:right"><span style="font-size:12.0pt;font-family:&quot;Cambria&quot;,&quot;serif&quot;;color:#1F497D">13<o:p></o:p></span></p>
+  </td>
+  <td width="87" valign="bottom" style="width:65.0pt;border-top:none;border-left:
+  none;border-bottom:solid black 1.0pt;border-right:solid black 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt;height:25.5pt">
+  <p class="MsoNormal" align="right" style="text-align:right"><span style="font-size:12.0pt;font-family:&quot;Cambria&quot;,&quot;serif&quot;;color:#1F497D">1938633<o:p></o:p></span></p>
+  </td>
+  <td width="248" valign="bottom" style="width:186.0pt;border-top:none;border-left:
+  none;border-bottom:solid black 1.0pt;border-right:solid black 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt;height:25.5pt">
+  <p class="MsoNormal"><span style="font-size:12.0pt;font-family:&quot;Cambria&quot;,&quot;serif&quot;;
+  color:#1F497D">[SP20] Remove Reference and comments from Add image pupop<o:p></o:p></span></p>
+  </td>
+  <td width="111" valign="bottom" style="width:83.0pt;border-top:none;border-left:
+  none;border-bottom:solid black 1.0pt;border-right:solid black 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt;height:25.5pt">
+  <p class="MsoNormal"><span style="font-size:12.0pt;font-family:&quot;Cambria&quot;,&quot;serif&quot;;
+  color:#1F497D">&nbsp;<o:p></o:p></span></p>
+  </td>
+  <td width="127" valign="bottom" style="width:95.0pt;border-top:none;border-left:
+  none;border-bottom:solid black 1.0pt;border-right:solid black 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt;height:25.5pt">
+  <p class="MsoNormal"><span style="font-size:12.0pt;font-family:&quot;Cambria&quot;,&quot;serif&quot;;
+  color:#1F497D">&nbsp;Hanoi<o:p></o:p></span></p>
+  </td>
+ </tr>
+ <tr style="mso-yfti-irow:14;height:25.5pt">
+  <td width="35" valign="bottom" style="width:26.0pt;border:solid black 1.0pt;
+  border-top:none;padding:0cm 5.4pt 0cm 5.4pt;height:25.5pt">
+  <p class="MsoNormal" align="right" style="text-align:right"><span style="font-size: 12pt; font-family: Cambria, serif; color: rgb(31, 73, 125); background-color: rgb(0, 255, 0);"><strike>14<o:p></o:p></strike></span></p>
+  </td>
+  <td width="87" valign="bottom" style="width:65.0pt;border-top:none;border-left:
+  none;border-bottom:solid black 1.0pt;border-right:solid black 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt;height:25.5pt">
+  <p class="MsoNormal" align="right" style="text-align:right"><span style="font-size: 12pt; font-family: Cambria, serif; color: rgb(31, 73, 125); background-color: rgb(0, 255, 0);"><strike>1934257<o:p></o:p></strike></span></p>
+  </td>
+  <td width="248" valign="bottom" style="width:186.0pt;border-top:none;border-left:
+  none;border-bottom:solid black 1.0pt;border-right:solid black 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt;height:25.5pt">
+  <p class="MsoNormal"><span style="font-size: 12pt; font-family: Cambria, serif; color: rgb(31, 73, 125); background-color: rgb(0, 255, 0);"><strike>[SP20]JS Error displayed on IE while creating a package<o:p></o:p></strike></span></p>
+  </td>
+  <td width="111" valign="bottom" style="width:83.0pt;border-top:none;border-left:
+  none;border-bottom:solid black 1.0pt;border-right:solid black 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt;height:25.5pt">
+  <p class="MsoNormal"><span style="font-size: 12pt; font-family: Cambria, serif; color: rgb(31, 73, 125); background-color: rgb(0, 255, 0);"><strike>EP385<o:p></o:p></strike></span></p>
+  </td>
+  <td width="127" valign="bottom" style="width:95.0pt;border-top:none;border-left:
+  none;border-bottom:solid black 1.0pt;border-right:solid black 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt;height:25.5pt">
+  <p class="MsoNormal"><span style="font-size: 12pt; font-family: Cambria, serif; color: rgb(31, 73, 125); background-color: rgb(0, 255, 0);"><strike>&nbsp;<o:p></o:p></strike></span></p>
+  </td>
+ </tr>
+ <tr style="mso-yfti-irow:15;height:38.25pt">
+  <td width="35" valign="bottom" style="width:26.0pt;border:solid black 1.0pt;
+  border-top:none;padding:0cm 5.4pt 0cm 5.4pt;height:38.25pt">
+  <p class="MsoNormal" align="right" style="text-align:right"><span style="font-size: 12pt; font-family: Cambria, serif; color: rgb(31, 73, 125); background-color: rgb(0, 255, 0);"><strike>15<o:p></o:p></strike></span></p>
+  </td>
+  <td width="87" valign="bottom" style="width:65.0pt;border-top:none;border-left:
+  none;border-bottom:solid black 1.0pt;border-right:solid black 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt;height:38.25pt">
+  <p class="MsoNormal" align="right" style="text-align:right"><span style="font-size: 12pt; font-family: Cambria, serif; color: rgb(31, 73, 125); background-color: rgb(0, 255, 0);"><strike>1900028<o:p></o:p></strike></span></p>
+  </td>
+  <td width="248" valign="bottom" style="width:186.0pt;border-top:none;border-left:
+  none;border-bottom:solid black 1.0pt;border-right:solid black 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt;height:38.25pt">
+  <p class="MsoNormal"><span style="font-size: 12pt; font-family: Cambria, serif; color: rgb(31, 73, 125); background-color: rgb(0, 255, 0);"><strike>[SP20] [EP-258] DE259:: createloc / SlocAddress-Name2 not
+  mapped to UI<o:p></o:p></strike></span></p>
+  </td>
+  <td width="111" valign="bottom" style="width:83.0pt;border-top:none;border-left:
+  none;border-bottom:solid black 1.0pt;border-right:solid black 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt;height:38.25pt">
+  <p class="MsoNormal"><span style="font-size: 12pt; font-family: Cambria, serif; color: rgb(31, 73, 125); background-color: rgb(0, 255, 0);"><strike>EP258</strike></span></p></td><td width="127" valign="bottom" style="width:95.0pt;border-top:none;border-left:
+  none;border-bottom:solid black 1.0pt;border-right:solid black 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt;height:38.25pt"><p class="MsoNormal"><br></p>
+  </td>
+ </tr>
+ <tr style="mso-yfti-irow:16;height:38.25pt">
+  <td width="35" valign="bottom" style="width:26.0pt;border:solid black 1.0pt;
+  border-top:none;padding:0cm 5.4pt 0cm 5.4pt;height:38.25pt">
+  <p class="MsoNormal" align="right" style="text-align:right"><span style="font-size: 12pt; font-family: Cambria, serif; color: rgb(31, 73, 125); background-color: rgb(0, 255, 0);">16<o:p></o:p></span></p>
+  </td>
+  <td width="87" valign="bottom" style="width:65.0pt;border-top:none;border-left:
+  none;border-bottom:solid black 1.0pt;border-right:solid black 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt;height:38.25pt">
+  <p class="MsoNormal" align="right" style="text-align:right"><span style="font-size: 12pt; font-family: Cambria, serif; color: rgb(31, 73, 125); background-color: rgb(0, 255, 0);">1898525<o:p></o:p></span></p>
+  </td>
+  <td width="248" valign="bottom" style="width:186.0pt;border-top:none;border-left:
+  none;border-bottom:solid black 1.0pt;border-right:solid black 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt;height:38.25pt">
+  <p class="MsoNormal"><span style="font-size: 12pt; font-family: Cambria, serif; color: rgb(31, 73, 125); background-color: rgb(0, 255, 0);">[SP20] [EP-247] DE249:: Force history printout to be black and
+  white (white background)<o:p></o:p></span></p>
+  </td>
+  <td width="111" valign="bottom" style="width:83.0pt;border-top:none;border-left:
+  none;border-bottom:solid black 1.0pt;border-right:solid black 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt;height:38.25pt">
+  <p class="MsoNormal"><span style="font-size:12.0pt;font-family:&quot;Cambria&quot;,&quot;serif&quot;;
+  color:#1F497D"><span style="background-color: rgb(0, 255, 0);">EP247</span></span></p></td><td width="127" valign="bottom" style="width:95.0pt;border-top:none;border-left:
+  none;border-bottom:solid black 1.0pt;border-right:solid black 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt;height:38.25pt">
+  </td>
+ </tr>
+ <tr style="mso-yfti-irow:17;mso-yfti-lastrow:yes;height:38.25pt">
+  <td width="35" valign="bottom" style="width:26.0pt;border:solid black 1.0pt;
+  border-top:none;padding:0cm 5.4pt 0cm 5.4pt;height:38.25pt">
+  <p class="MsoNormal" align="right" style="text-align:right"><span style="font-size: 12pt; font-family: Cambria, serif; color: rgb(31, 73, 125); background-color: rgb(204, 204, 204);">17<o:p></o:p></span></p>
+  </td>
+  <td width="87" valign="bottom" style="width:65.0pt;border-top:none;border-left:
+  none;border-bottom:solid black 1.0pt;border-right:solid black 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt;height:38.25pt">
+  <p class="MsoNormal" align="right" style="text-align:right"><span style="font-size: 12pt; font-family: Cambria, serif; color: rgb(31, 73, 125); background-color: rgb(204, 204, 204);">1879315<o:p></o:p></span></p>
+  </td>
+  <td width="248" valign="bottom" style="width:186.0pt;border-top:none;border-left:
+  none;border-bottom:solid black 1.0pt;border-right:solid black 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt;height:38.25pt">
+  <p class="MsoNormal"><span style="font-size: 12pt; font-family: Cambria, serif; color: rgb(31, 73, 125); background-color: rgb(204, 204, 204);">[SP20][EP-133] DE134:: API - Envoy USPS Validation when no
+  connection available fails<o:p></o:p></span></p>
+  </td>
+  <td width="111" valign="bottom" style="width:83.0pt;border-top:none;border-left:
+  none;border-bottom:solid black 1.0pt;border-right:solid black 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt;height:38.25pt">
+  <p class="MsoNormal"><span style="font-size: 12pt; font-family: Cambria, serif; color: rgb(31, 73, 125); background-color: rgb(204, 204, 204);">EP133<o:p></o:p></span></p>
+  </td>
+  <td width="127" valign="bottom" style="width:95.0pt;border-top:none;border-left:
+  none;border-bottom:solid black 1.0pt;border-right:solid black 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt;height:38.25pt">
+  <p class="MsoNormal"><font color="#1f497d" face="Cambria, serif" style="background-color: rgb(204, 204, 204);">Previous release</font></p>
+  </td>
+ </tr>
+</tbody></table><br></div><div><ul><li><a class="issue-link" data-issue-key="EP-276" href="https://nidamerica.atlassian.net/browse/EP-276" id="key-val" rel="10905">EP-276</a>&nbsp;to check</li><li><u><strike style="background-color: rgb(255, 255, 0);">Send JIRA update to Hanoi</strike></u></li></ul></div></div><span style="text-indent: -24px;"><b><div><b><br></b></div>Other Pending tasks :</b></span><br><blockquote style="margin: 0px 0px 0px 40px; border: none; padding: 0px;"><blockquote style="margin: 0px 0px 0px 40px; border: none; padding: 0px;"><blockquote style="margin: 0px 0px 0px 40px; border: none; padding: 0px;"><ul></ul></blockquote></blockquote></blockquote><div><ul><li>Envoyer mail pour le build auto d'envoy!</li><li><span style="text-indent: -18pt; font-size: 7pt; font-family: 'Times New Roman';">&nbsp;</span><span style="text-indent: -18pt; background-color: rgb(0, 255, 255);">/!\ fix envoy processShipment issue by installing the last version and removing the cache. 3h<b>&nbsp;=&gt; OK</b></span></li></ul></div></div>
+  </div>
+</body>
+</html>

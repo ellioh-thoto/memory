@@ -1,0 +1,905 @@
+2014-05-20 20:57:13 Error: [MissingPluginException] Plugin DebugKit could not be found.
+Exception Attributes: array (
+  'plugin' => 'DebugKit',
+)
+Stack Trace:
+#0 /var/www/cakephp/app/Config/bootstrap.php(27): CakePlugin::load('DebugKit')
+#1 /var/www/cakephp/lib/Cake/Core/Configure.php(92): include('/var/www/cakeph...')
+#2 /var/www/cakephp/lib/Cake/bootstrap.php(175): Configure::bootstrap(true)
+#3 /var/www/cakephp/app/webroot/index.php(90): include('/var/www/cakeph...')
+#4 {main}
+2014-05-20 20:58:15 Error: [MissingPluginException] Plugin DebugKit could not be found.
+Exception Attributes: array (
+  'plugin' => 'DebugKit',
+)
+Stack Trace:
+#0 /var/www/cakephp/app/Config/bootstrap.php(27): CakePlugin::load('DebugKit')
+#1 /var/www/cakephp/lib/Cake/Core/Configure.php(92): include('/var/www/cakeph...')
+#2 /var/www/cakephp/lib/Cake/bootstrap.php(175): Configure::bootstrap(true)
+#3 /var/www/cakephp/app/webroot/index.php(90): include('/var/www/cakeph...')
+#4 {main}
+2014-05-20 20:58:17 Error: [MissingPluginException] Plugin DebugKit could not be found.
+Exception Attributes: array (
+  'plugin' => 'DebugKit',
+)
+Stack Trace:
+#0 /var/www/cakephp/app/Config/bootstrap.php(27): CakePlugin::load('DebugKit')
+#1 /var/www/cakephp/lib/Cake/Core/Configure.php(92): include('/var/www/cakeph...')
+#2 /var/www/cakephp/lib/Cake/bootstrap.php(175): Configure::bootstrap(true)
+#3 /var/www/cakephp/app/webroot/index.php(90): include('/var/www/cakeph...')
+#4 {main}
+2014-05-20 20:58:17 Error: [MissingPluginException] Plugin DebugKit could not be found.
+Exception Attributes: array (
+  'plugin' => 'DebugKit',
+)
+Stack Trace:
+#0 /var/www/cakephp/app/Config/bootstrap.php(27): CakePlugin::load('DebugKit')
+#1 /var/www/cakephp/lib/Cake/Core/Configure.php(92): include('/var/www/cakeph...')
+#2 /var/www/cakephp/lib/Cake/bootstrap.php(175): Configure::bootstrap(true)
+#3 /var/www/cakephp/app/webroot/index.php(90): include('/var/www/cakeph...')
+#4 {main}
+2014-05-20 20:58:17 Error: [MissingPluginException] Plugin DebugKit could not be found.
+Exception Attributes: array (
+  'plugin' => 'DebugKit',
+)
+Stack Trace:
+#0 /var/www/cakephp/app/Config/bootstrap.php(27): CakePlugin::load('DebugKit')
+#1 /var/www/cakephp/lib/Cake/Core/Configure.php(92): include('/var/www/cakeph...')
+#2 /var/www/cakephp/lib/Cake/bootstrap.php(175): Configure::bootstrap(true)
+#3 /var/www/cakephp/app/webroot/index.php(90): include('/var/www/cakeph...')
+#4 {main}
+2014-05-20 20:58:17 Error: [MissingPluginException] Plugin DebugKit could not be found.
+Exception Attributes: array (
+  'plugin' => 'DebugKit',
+)
+Stack Trace:
+#0 /var/www/cakephp/app/Config/bootstrap.php(27): CakePlugin::load('DebugKit')
+#1 /var/www/cakephp/lib/Cake/Core/Configure.php(92): include('/var/www/cakeph...')
+#2 /var/www/cakephp/lib/Cake/bootstrap.php(175): Configure::bootstrap(true)
+#3 /var/www/cakephp/app/webroot/index.php(90): include('/var/www/cakeph...')
+#4 {main}
+2014-05-20 20:58:26 Error: [MissingPluginException] Plugin DebugKit could not be found.
+Exception Attributes: array (
+  'plugin' => 'DebugKit',
+)
+Stack Trace:
+#0 /var/www/cakephp/app/Config/bootstrap.php(27): CakePlugin::load('DebugKit')
+#1 /var/www/cakephp/lib/Cake/Core/Configure.php(92): include('/var/www/cakeph...')
+#2 /var/www/cakephp/lib/Cake/bootstrap.php(175): Configure::bootstrap(true)
+#3 /var/www/cakephp/app/webroot/index.php(90): include('/var/www/cakeph...')
+#4 {main}
+2014-05-20 20:58:33 Error: [MissingPluginException] Plugin DebugKit could not be found.
+Exception Attributes: array (
+  'plugin' => 'DebugKit',
+)
+Stack Trace:
+#0 /var/www/cakephp/app/Config/bootstrap.php(27): CakePlugin::load('DebugKit')
+#1 /var/www/cakephp/lib/Cake/Core/Configure.php(92): include('/var/www/cakeph...')
+#2 /var/www/cakephp/lib/Cake/bootstrap.php(175): Configure::bootstrap(true)
+#3 /var/www/cakephp/app/webroot/index.php(90): include('/var/www/cakeph...')
+#4 {main}
+2014-05-20 20:58:34 Error: [MissingPluginException] Plugin DebugKit could not be found.
+Exception Attributes: array (
+  'plugin' => 'DebugKit',
+)
+Stack Trace:
+#0 /var/www/cakephp/app/Config/bootstrap.php(27): CakePlugin::load('DebugKit')
+#1 /var/www/cakephp/lib/Cake/Core/Configure.php(92): include('/var/www/cakeph...')
+#2 /var/www/cakephp/lib/Cake/bootstrap.php(175): Configure::bootstrap(true)
+#3 /var/www/cakephp/app/webroot/index.php(90): include('/var/www/cakeph...')
+#4 {main}
+2014-05-20 20:59:29 Error: [MissingPluginException] Plugin DebugKit could not be found.
+Exception Attributes: array (
+  'plugin' => 'DebugKit',
+)
+Request URL: /
+Stack Trace:
+#0 /var/www/cakephp/lib/Cake/Core/App.php(365): CakePlugin::path('DebugKit')
+#1 /var/www/cakephp/lib/Cake/Core/App.php(226): App::pluginPath('DebugKit')
+#2 /var/www/cakephp/lib/Cake/Core/App.php(547): App::path('Controller/Comp...', 'DebugKit')
+#3 [internal function]: App::load('ToolbarComponen...')
+#4 [internal function]: spl_autoload_call('ToolbarComponen...')
+#5 /var/www/cakephp/lib/Cake/Controller/ComponentCollection.php(110): class_exists('ToolbarComponen...')
+#6 /var/www/cakephp/lib/Cake/Controller/ComponentCollection.php(53): ComponentCollection->load('DebugKit.Toolba...', Array)
+#7 /var/www/cakephp/lib/Cake/Controller/Controller.php(643): ComponentCollection->init(Object(PagesController))
+#8 /var/www/cakephp/lib/Cake/Routing/Dispatcher.php(181): Controller->constructClasses()
+#9 /var/www/cakephp/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#10 /var/www/cakephp/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2014-05-20 20:59:31 Error: [MissingPluginException] Plugin DebugKit could not be found.
+Exception Attributes: array (
+  'plugin' => 'DebugKit',
+)
+Request URL: /
+Stack Trace:
+#0 /var/www/cakephp/lib/Cake/Core/App.php(365): CakePlugin::path('DebugKit')
+#1 /var/www/cakephp/lib/Cake/Core/App.php(226): App::pluginPath('DebugKit')
+#2 /var/www/cakephp/lib/Cake/Core/App.php(547): App::path('Controller/Comp...', 'DebugKit')
+#3 [internal function]: App::load('ToolbarComponen...')
+#4 [internal function]: spl_autoload_call('ToolbarComponen...')
+#5 /var/www/cakephp/lib/Cake/Controller/ComponentCollection.php(110): class_exists('ToolbarComponen...')
+#6 /var/www/cakephp/lib/Cake/Controller/ComponentCollection.php(53): ComponentCollection->load('DebugKit.Toolba...', Array)
+#7 /var/www/cakephp/lib/Cake/Controller/Controller.php(643): ComponentCollection->init(Object(PagesController))
+#8 /var/www/cakephp/lib/Cake/Routing/Dispatcher.php(181): Controller->constructClasses()
+#9 /var/www/cakephp/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#10 /var/www/cakephp/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2014-05-20 21:00:19 Error: [MissingPluginException] Plugin DebugKit could not be found.
+Exception Attributes: array (
+  'plugin' => 'DebugKit',
+)
+Request URL: /
+Stack Trace:
+#0 /var/www/cakephp/lib/Cake/Core/App.php(365): CakePlugin::path('DebugKit')
+#1 /var/www/cakephp/lib/Cake/Core/App.php(226): App::pluginPath('DebugKit')
+#2 /var/www/cakephp/lib/Cake/Core/App.php(547): App::path('Controller/Comp...', 'DebugKit')
+#3 [internal function]: App::load('ToolbarComponen...')
+#4 [internal function]: spl_autoload_call('ToolbarComponen...')
+#5 /var/www/cakephp/lib/Cake/Controller/ComponentCollection.php(110): class_exists('ToolbarComponen...')
+#6 /var/www/cakephp/lib/Cake/Controller/ComponentCollection.php(53): ComponentCollection->load('DebugKit.Toolba...', Array)
+#7 /var/www/cakephp/lib/Cake/Controller/Controller.php(643): ComponentCollection->init(Object(PagesController))
+#8 /var/www/cakephp/lib/Cake/Routing/Dispatcher.php(181): Controller->constructClasses()
+#9 /var/www/cakephp/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#10 /var/www/cakephp/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2014-05-20 21:00:21 Error: [MissingPluginException] Plugin DebugKit could not be found.
+Exception Attributes: array (
+  'plugin' => 'DebugKit',
+)
+Request URL: /
+Stack Trace:
+#0 /var/www/cakephp/lib/Cake/Core/App.php(365): CakePlugin::path('DebugKit')
+#1 /var/www/cakephp/lib/Cake/Core/App.php(226): App::pluginPath('DebugKit')
+#2 /var/www/cakephp/lib/Cake/Core/App.php(547): App::path('Controller/Comp...', 'DebugKit')
+#3 [internal function]: App::load('ToolbarComponen...')
+#4 [internal function]: spl_autoload_call('ToolbarComponen...')
+#5 /var/www/cakephp/lib/Cake/Controller/ComponentCollection.php(110): class_exists('ToolbarComponen...')
+#6 /var/www/cakephp/lib/Cake/Controller/ComponentCollection.php(53): ComponentCollection->load('DebugKit.Toolba...', Array)
+#7 /var/www/cakephp/lib/Cake/Controller/Controller.php(643): ComponentCollection->init(Object(PagesController))
+#8 /var/www/cakephp/lib/Cake/Routing/Dispatcher.php(181): Controller->constructClasses()
+#9 /var/www/cakephp/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#10 /var/www/cakephp/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2014-05-20 21:00:22 Error: [MissingPluginException] Plugin DebugKit could not be found.
+Exception Attributes: array (
+  'plugin' => 'DebugKit',
+)
+Request URL: /
+Stack Trace:
+#0 /var/www/cakephp/lib/Cake/Core/App.php(365): CakePlugin::path('DebugKit')
+#1 /var/www/cakephp/lib/Cake/Core/App.php(226): App::pluginPath('DebugKit')
+#2 /var/www/cakephp/lib/Cake/Core/App.php(547): App::path('Controller/Comp...', 'DebugKit')
+#3 [internal function]: App::load('ToolbarComponen...')
+#4 [internal function]: spl_autoload_call('ToolbarComponen...')
+#5 /var/www/cakephp/lib/Cake/Controller/ComponentCollection.php(110): class_exists('ToolbarComponen...')
+#6 /var/www/cakephp/lib/Cake/Controller/ComponentCollection.php(53): ComponentCollection->load('DebugKit.Toolba...', Array)
+#7 /var/www/cakephp/lib/Cake/Controller/Controller.php(643): ComponentCollection->init(Object(PagesController))
+#8 /var/www/cakephp/lib/Cake/Routing/Dispatcher.php(181): Controller->constructClasses()
+#9 /var/www/cakephp/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#10 /var/www/cakephp/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2014-05-20 21:02:08 Error: [MissingPluginException] Plugin DebugKit could not be found.
+Exception Attributes: array (
+  'plugin' => 'DebugKit',
+)
+Request URL: /
+Stack Trace:
+#0 /var/www/cakephp/lib/Cake/Core/App.php(365): CakePlugin::path('DebugKit')
+#1 /var/www/cakephp/lib/Cake/Core/App.php(226): App::pluginPath('DebugKit')
+#2 /var/www/cakephp/lib/Cake/Core/App.php(547): App::path('Controller/Comp...', 'DebugKit')
+#3 [internal function]: App::load('ToolbarComponen...')
+#4 [internal function]: spl_autoload_call('ToolbarComponen...')
+#5 /var/www/cakephp/lib/Cake/Controller/ComponentCollection.php(110): class_exists('ToolbarComponen...')
+#6 /var/www/cakephp/lib/Cake/Controller/ComponentCollection.php(53): ComponentCollection->load('DebugKit.Toolba...', Array)
+#7 /var/www/cakephp/lib/Cake/Controller/Controller.php(643): ComponentCollection->init(Object(PagesController))
+#8 /var/www/cakephp/lib/Cake/Routing/Dispatcher.php(181): Controller->constructClasses()
+#9 /var/www/cakephp/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#10 /var/www/cakephp/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2014-05-20 21:02:27 Error: [MissingPluginException] Plugin DebugKit could not be found.
+Exception Attributes: array (
+  'plugin' => 'DebugKit',
+)
+Request URL: /
+Stack Trace:
+#0 /var/www/cakephp/lib/Cake/Core/App.php(365): CakePlugin::path('DebugKit')
+#1 /var/www/cakephp/lib/Cake/Core/App.php(226): App::pluginPath('DebugKit')
+#2 /var/www/cakephp/lib/Cake/Core/App.php(547): App::path('Controller/Comp...', 'DebugKit')
+#3 [internal function]: App::load('ToolbarComponen...')
+#4 [internal function]: spl_autoload_call('ToolbarComponen...')
+#5 /var/www/cakephp/lib/Cake/Controller/ComponentCollection.php(110): class_exists('ToolbarComponen...')
+#6 /var/www/cakephp/lib/Cake/Controller/ComponentCollection.php(53): ComponentCollection->load('DebugKit.Toolba...', Array)
+#7 /var/www/cakephp/lib/Cake/Controller/Controller.php(643): ComponentCollection->init(Object(PagesController))
+#8 /var/www/cakephp/lib/Cake/Routing/Dispatcher.php(181): Controller->constructClasses()
+#9 /var/www/cakephp/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#10 /var/www/cakephp/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2014-05-20 21:02:28 Error: [MissingPluginException] Plugin DebugKit could not be found.
+Exception Attributes: array (
+  'plugin' => 'DebugKit',
+)
+Request URL: /
+Stack Trace:
+#0 /var/www/cakephp/lib/Cake/Core/App.php(365): CakePlugin::path('DebugKit')
+#1 /var/www/cakephp/lib/Cake/Core/App.php(226): App::pluginPath('DebugKit')
+#2 /var/www/cakephp/lib/Cake/Core/App.php(547): App::path('Controller/Comp...', 'DebugKit')
+#3 [internal function]: App::load('ToolbarComponen...')
+#4 [internal function]: spl_autoload_call('ToolbarComponen...')
+#5 /var/www/cakephp/lib/Cake/Controller/ComponentCollection.php(110): class_exists('ToolbarComponen...')
+#6 /var/www/cakephp/lib/Cake/Controller/ComponentCollection.php(53): ComponentCollection->load('DebugKit.Toolba...', Array)
+#7 /var/www/cakephp/lib/Cake/Controller/Controller.php(643): ComponentCollection->init(Object(PagesController))
+#8 /var/www/cakephp/lib/Cake/Routing/Dispatcher.php(181): Controller->constructClasses()
+#9 /var/www/cakephp/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#10 /var/www/cakephp/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2014-05-20 21:02:28 Error: [MissingPluginException] Plugin DebugKit could not be found.
+Exception Attributes: array (
+  'plugin' => 'DebugKit',
+)
+Request URL: /
+Stack Trace:
+#0 /var/www/cakephp/lib/Cake/Core/App.php(365): CakePlugin::path('DebugKit')
+#1 /var/www/cakephp/lib/Cake/Core/App.php(226): App::pluginPath('DebugKit')
+#2 /var/www/cakephp/lib/Cake/Core/App.php(547): App::path('Controller/Comp...', 'DebugKit')
+#3 [internal function]: App::load('ToolbarComponen...')
+#4 [internal function]: spl_autoload_call('ToolbarComponen...')
+#5 /var/www/cakephp/lib/Cake/Controller/ComponentCollection.php(110): class_exists('ToolbarComponen...')
+#6 /var/www/cakephp/lib/Cake/Controller/ComponentCollection.php(53): ComponentCollection->load('DebugKit.Toolba...', Array)
+#7 /var/www/cakephp/lib/Cake/Controller/Controller.php(643): ComponentCollection->init(Object(PagesController))
+#8 /var/www/cakephp/lib/Cake/Routing/Dispatcher.php(181): Controller->constructClasses()
+#9 /var/www/cakephp/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#10 /var/www/cakephp/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2014-05-20 21:02:28 Error: [MissingPluginException] Plugin DebugKit could not be found.
+Exception Attributes: array (
+  'plugin' => 'DebugKit',
+)
+Request URL: /
+Stack Trace:
+#0 /var/www/cakephp/lib/Cake/Core/App.php(365): CakePlugin::path('DebugKit')
+#1 /var/www/cakephp/lib/Cake/Core/App.php(226): App::pluginPath('DebugKit')
+#2 /var/www/cakephp/lib/Cake/Core/App.php(547): App::path('Controller/Comp...', 'DebugKit')
+#3 [internal function]: App::load('ToolbarComponen...')
+#4 [internal function]: spl_autoload_call('ToolbarComponen...')
+#5 /var/www/cakephp/lib/Cake/Controller/ComponentCollection.php(110): class_exists('ToolbarComponen...')
+#6 /var/www/cakephp/lib/Cake/Controller/ComponentCollection.php(53): ComponentCollection->load('DebugKit.Toolba...', Array)
+#7 /var/www/cakephp/lib/Cake/Controller/Controller.php(643): ComponentCollection->init(Object(PagesController))
+#8 /var/www/cakephp/lib/Cake/Routing/Dispatcher.php(181): Controller->constructClasses()
+#9 /var/www/cakephp/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#10 /var/www/cakephp/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2014-05-20 21:14:13 Error: [NotFoundException] Not Found
+Request URL: /
+Stack Trace:
+#0 /var/www/cakephp/lib/Cake/View/View.php(929): include()
+#1 /var/www/cakephp/lib/Cake/View/View.php(891): View->_evaluate('/var/www/cakeph...', Array)
+#2 /var/www/cakephp/lib/Cake/View/View.php(460): View->_render('/var/www/cakeph...')
+#3 /var/www/cakephp/lib/Cake/Controller/Controller.php(952): View->render('home', NULL)
+#4 /var/www/cakephp/app/Controller/PagesController.php(69): Controller->render('home')
+#5 [internal function]: PagesController->display('home')
+#6 /var/www/cakephp/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#7 /var/www/cakephp/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#8 /var/www/cakephp/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#9 /var/www/cakephp/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2014-05-21 19:10:52 Error: Fatal Error (4): syntax error, unexpected T_PRIVATE in [/var/www/cakephp/app/Controller/PagesController.php, line 85]
+2014-05-21 19:10:52 Error: [FatalErrorException] syntax error, unexpected T_PRIVATE
+Request URL: /
+Stack Trace:
+#0 /var/www/cakephp/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/cakeph...', 85)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/cakeph...', 85, Array)
+#2 /var/www/cakephp/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/cakeph...', 85, Array)
+#3 /var/www/cakephp/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-05-21 19:11:12 Error: Fatal Error (1): Call to undefined function getFiles() in [/var/www/cakephp/app/Controller/PagesController.php, line 71]
+2014-05-21 19:11:12 Error: [FatalErrorException] Call to undefined function getFiles()
+Request URL: /
+Stack Trace:
+#0 /var/www/cakephp/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to undefin...', '/var/www/cakeph...', 71)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to undefin...', '/var/www/cakeph...', 71, Array)
+#2 /var/www/cakephp/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 1, 'Call to undefin...', '/var/www/cakeph...', 71, Array)
+#3 /var/www/cakephp/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-05-21 19:11:14 Error: Fatal Error (1): Call to undefined function getFiles() in [/var/www/cakephp/app/Controller/PagesController.php, line 71]
+2014-05-21 19:11:14 Error: [FatalErrorException] Call to undefined function getFiles()
+Request URL: /
+Stack Trace:
+#0 /var/www/cakephp/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to undefin...', '/var/www/cakeph...', 71)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to undefin...', '/var/www/cakeph...', 71, Array)
+#2 /var/www/cakephp/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 1, 'Call to undefin...', '/var/www/cakeph...', 71, Array)
+#3 /var/www/cakephp/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-05-21 19:11:37 Error: Fatal Error (1): Class 'Folder' not found in [/var/www/cakephp/app/Controller/PagesController.php, line 86]
+2014-05-21 19:11:37 Error: [FatalErrorException] Class 'Folder' not found
+Request URL: /
+Stack Trace:
+#0 /var/www/cakephp/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Class 'Folder' ...', '/var/www/cakeph...', 86)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'Folder' ...', '/var/www/cakeph...', 86, Array)
+#2 /var/www/cakephp/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 1, 'Class 'Folder' ...', '/var/www/cakeph...', 86, Array)
+#3 /var/www/cakephp/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-05-21 19:11:38 Error: Fatal Error (1): Class 'Folder' not found in [/var/www/cakephp/app/Controller/PagesController.php, line 86]
+2014-05-21 19:11:38 Error: [FatalErrorException] Class 'Folder' not found
+Request URL: /
+Stack Trace:
+#0 /var/www/cakephp/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Class 'Folder' ...', '/var/www/cakeph...', 86)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'Folder' ...', '/var/www/cakeph...', 86, Array)
+#2 /var/www/cakephp/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 1, 'Class 'Folder' ...', '/var/www/cakeph...', 86, Array)
+#3 /var/www/cakephp/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-05-21 19:33:48 Error: Fatal Error (1): Call to a member function pwd() on a non-object in [/var/www/cakephp/app/Controller/PagesController.php, line 80]
+2014-05-21 19:33:48 Error: [FatalErrorException] Call to a member function pwd() on a non-object
+Request URL: /
+Stack Trace:
+#0 /var/www/cakephp/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/var/www/cakeph...', 80)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/var/www/cakeph...', 80, Array)
+#2 /var/www/cakephp/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/var/www/cakeph...', 80, Array)
+#3 /var/www/cakephp/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-05-21 19:38:15 Error: Fatal Error (1): Call to undefined method File::time() in [/var/www/cakephp/app/Controller/PagesController.php, line 82]
+2014-05-21 19:38:15 Error: [FatalErrorException] Call to undefined method File::time()
+Request URL: /
+Stack Trace:
+#0 /var/www/cakephp/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to undefin...', '/var/www/cakeph...', 82)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to undefin...', '/var/www/cakeph...', 82, Array)
+#2 /var/www/cakephp/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 1, 'Call to undefin...', '/var/www/cakeph...', 82, Array)
+#3 /var/www/cakephp/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-05-21 19:40:03 Error: Fatal Error (1): Call to undefined function lastChange() in [/var/www/cakephp/app/Controller/PagesController.php, line 82]
+2014-05-21 19:40:03 Error: [FatalErrorException] Call to undefined function lastChange()
+Request URL: /
+Stack Trace:
+#0 /var/www/cakephp/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to undefin...', '/var/www/cakeph...', 82)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to undefin...', '/var/www/cakeph...', 82, Array)
+#2 /var/www/cakephp/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 1, 'Call to undefin...', '/var/www/cakeph...', 82, Array)
+#3 /var/www/cakephp/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-05-21 19:47:09 Error: Fatal Error (1): Unsupported operand types in [/var/www/cakephp/app/Controller/PagesController.php, line 82]
+2014-05-21 19:47:09 Error: [FatalErrorException] Unsupported operand types
+Request URL: /
+Stack Trace:
+#0 /var/www/cakephp/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Unsupported ope...', '/var/www/cakeph...', 82)
+#1 [internal function]: ErrorHandler::handleError(1, 'Unsupported ope...', '/var/www/cakeph...', 82, Array)
+#2 /var/www/cakephp/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 1, 'Unsupported ope...', '/var/www/cakeph...', 82, Array)
+#3 /var/www/cakephp/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-05-21 19:54:39 Error: Fatal Error (4): syntax error, unexpected T_STRING, expecting T_FUNCTION in [/var/www/cakephp/app/Controller/PagesController.php, line 43]
+2014-05-21 19:54:39 Error: [FatalErrorException] syntax error, unexpected T_STRING, expecting T_FUNCTION
+Request URL: /
+Stack Trace:
+#0 /var/www/cakephp/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/cakeph...', 43)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/cakeph...', 43, Array)
+#2 /var/www/cakephp/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/cakeph...', 43, Array)
+#3 /var/www/cakephp/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-05-21 22:28:33 Error: Fatal Error (1): Call to a member function read() on a non-object in [/var/www/cakephp/app/Controller/PagesController.php, line 91]
+2014-05-21 22:28:33 Error: [FatalErrorException] Call to a member function read() on a non-object
+Request URL: /
+Stack Trace:
+#0 /var/www/cakephp/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/var/www/cakeph...', 91)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/var/www/cakeph...', 91, Array)
+#2 /var/www/cakephp/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/var/www/cakeph...', 91, Array)
+#3 /var/www/cakephp/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-05-21 22:29:31 Error: Fatal Error (4): syntax error, unexpected T_VARIABLE in [/var/www/cakephp/app/Controller/PagesController.php, line 92]
+2014-05-21 22:29:31 Error: [FatalErrorException] syntax error, unexpected T_VARIABLE
+Request URL: /
+Stack Trace:
+#0 /var/www/cakephp/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/cakeph...', 92)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/cakeph...', 92, Array)
+#2 /var/www/cakephp/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/cakeph...', 92, Array)
+#3 /var/www/cakephp/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-05-21 22:29:39 Error: Fatal Error (1): Call to a member function read() on a non-object in [/var/www/cakephp/app/Controller/PagesController.php, line 92]
+2014-05-21 22:29:39 Error: [FatalErrorException] Call to a member function read() on a non-object
+Request URL: /
+Stack Trace:
+#0 /var/www/cakephp/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/var/www/cakeph...', 92)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/var/www/cakeph...', 92, Array)
+#2 /var/www/cakephp/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/var/www/cakeph...', 92, Array)
+#3 /var/www/cakephp/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-05-21 22:32:45 Error: Fatal Error (1): Cannot use object of type File as array in [/var/www/cakephp/app/Controller/PagesController.php, line 92]
+2014-05-21 22:32:45 Error: [FatalErrorException] Cannot use object of type File as array
+Request URL: /
+Stack Trace:
+#0 /var/www/cakephp/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Cannot use obje...', '/var/www/cakeph...', 92)
+#1 [internal function]: ErrorHandler::handleError(1, 'Cannot use obje...', '/var/www/cakeph...', 92, Array)
+#2 /var/www/cakephp/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 1, 'Cannot use obje...', '/var/www/cakeph...', 92, Array)
+#3 /var/www/cakephp/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-05-21 22:32:47 Error: Fatal Error (1): Cannot use object of type File as array in [/var/www/cakephp/app/Controller/PagesController.php, line 92]
+2014-05-21 22:32:47 Error: [FatalErrorException] Cannot use object of type File as array
+Request URL: /
+Stack Trace:
+#0 /var/www/cakephp/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Cannot use obje...', '/var/www/cakeph...', 92)
+#1 [internal function]: ErrorHandler::handleError(1, 'Cannot use obje...', '/var/www/cakeph...', 92, Array)
+#2 /var/www/cakephp/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 1, 'Cannot use obje...', '/var/www/cakeph...', 92, Array)
+#3 /var/www/cakephp/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-01-04 23:04:30 Error: Fatal Error (1): Call to a member function name() on a non-object in [/var/www/cakephp/app/Controller/PagesController.php, line 82]
+2015-01-04 23:04:30 Error: [FatalErrorException] Call to a member function name() on a non-object
+Request URL: /
+Stack Trace:
+#0 /var/www/cakephp/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/var/www/cakeph...', 82)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/var/www/cakeph...', 82, Array)
+#2 /var/www/cakephp/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/var/www/cakeph...', 82, Array)
+#3 /var/www/cakephp/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-01-04 23:04:58 Error: Fatal Error (1): Call to a member function close() on a non-object in [/var/www/cakephp/app/Controller/PagesController.php, line 93]
+2015-01-04 23:04:58 Error: [FatalErrorException] Call to a member function close() on a non-object
+Request URL: /
+Stack Trace:
+#0 /var/www/cakephp/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/var/www/cakeph...', 93)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/var/www/cakeph...', 93, Array)
+#2 /var/www/cakephp/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/var/www/cakeph...', 93, Array)
+#3 /var/www/cakephp/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-01-06 00:03:15 Error: Fatal Error (1): Call to a member function link() on a non-object in [/var/www/cakephp/app/View/Pages/diary.ctp, line 34]
+2015-01-06 00:03:15 Error: [FatalErrorException] Call to a member function link() on a non-object
+Request URL: /
+Stack Trace:
+#0 /var/www/cakephp/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/var/www/cakeph...', 34)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/var/www/cakeph...', 34, Array)
+#2 /var/www/cakephp/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/var/www/cakeph...', 34, Array)
+#3 /var/www/cakephp/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-01-06 00:26:36 Error: [MissingControllerException] Controller class Controller could not be found.
+Exception Attributes: array (
+  'class' => 'Controller',
+  'plugin' => NULL,
+)
+Request URL: /
+Stack Trace:
+#0 /var/www/cakephp/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-06 00:46:09 Error: [MissingControllerException] Controller class Controller could not be found.
+Exception Attributes: array (
+  'class' => 'Controller',
+  'plugin' => NULL,
+)
+Request URL: /
+Stack Trace:
+#0 /var/www/cakephp/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-06 00:47:06 Error: [MissingControllerException] Controller class Controller could not be found.
+Exception Attributes: array (
+  'class' => 'Controller',
+  'plugin' => NULL,
+)
+Request URL: /
+Stack Trace:
+#0 /var/www/cakephp/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-06 00:47:07 Error: [MissingControllerException] Controller class Controller could not be found.
+Exception Attributes: array (
+  'class' => 'Controller',
+  'plugin' => NULL,
+)
+Request URL: /
+Stack Trace:
+#0 /var/www/cakephp/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-06 00:47:08 Error: [MissingControllerException] Controller class Controller could not be found.
+Exception Attributes: array (
+  'class' => 'Controller',
+  'plugin' => NULL,
+)
+Request URL: /
+Stack Trace:
+#0 /var/www/cakephp/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-06 01:02:39 Error: [MissingActionException] Action PagesController::index() could not be found.
+Exception Attributes: array (
+  'controller' => 'PagesController',
+  'action' => 'index',
+)
+Request URL: /pages
+Stack Trace:
+#0 /var/www/cakephp/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/cakephp/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#2 /var/www/cakephp/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-01-06 01:02:53 Error: [MissingActionException] Action PagesController::diary() could not be found.
+Exception Attributes: array (
+  'controller' => 'PagesController',
+  'action' => 'diary',
+)
+Request URL: /pages/diary
+Stack Trace:
+#0 /var/www/cakephp/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/cakephp/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#2 /var/www/cakephp/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-01-06 01:03:08 Error: [MissingActionException] Action PagesController::home() could not be found.
+Exception Attributes: array (
+  'controller' => 'PagesController',
+  'action' => 'home',
+)
+Request URL: /pages/home
+Stack Trace:
+#0 /var/www/cakephp/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/cakephp/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#2 /var/www/cakephp/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-01-06 01:04:44 Error: [MissingActionException] Action PagesController::display() could not be found.
+Exception Attributes: array (
+  'controller' => 'PagesController',
+  'action' => 'display',
+)
+Request URL: /
+Stack Trace:
+#0 /var/www/cakephp/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/cakephp/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#2 /var/www/cakephp/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-01-06 01:06:05 Error: [MissingActionException] Action PagesController::display() could not be found.
+Exception Attributes: array (
+  'controller' => 'PagesController',
+  'action' => 'display',
+)
+Request URL: /
+Stack Trace:
+#0 /var/www/cakephp/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/cakephp/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#2 /var/www/cakephp/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-01-06 01:06:17 Error: [MissingActionException] Action PagesController::index() could not be found.
+Exception Attributes: array (
+  'controller' => 'PagesController',
+  'action' => 'index',
+)
+Request URL: /pages
+Stack Trace:
+#0 /var/www/cakephp/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/cakephp/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#2 /var/www/cakephp/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-01-06 01:06:22 Error: [MissingActionException] Action PagesController::display() could not be found.
+Exception Attributes: array (
+  'controller' => 'PagesController',
+  'action' => 'display',
+)
+Request URL: /
+Stack Trace:
+#0 /var/www/cakephp/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/cakephp/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#2 /var/www/cakephp/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-01-06 01:08:06 Error: [MissingControllerException] Controller class HomeController could not be found.
+Exception Attributes: array (
+  'class' => 'HomeController',
+  'plugin' => NULL,
+)
+Request URL: /home
+Stack Trace:
+#0 /var/www/cakephp/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-06 01:08:19 Error: [MissingControllerException] Controller class HomeController could not be found.
+Exception Attributes: array (
+  'class' => 'HomeController',
+  'plugin' => NULL,
+)
+Request URL: /home
+Stack Trace:
+#0 /var/www/cakephp/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-06 01:10:35 Error: [MissingControllerException] Controller class TotoController could not be found.
+Exception Attributes: array (
+  'class' => 'TotoController',
+  'plugin' => NULL,
+)
+Request URL: /toto
+Stack Trace:
+#0 /var/www/cakephp/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-06 01:10:39 Error: [MissingControllerException] Controller class TotoController could not be found.
+Exception Attributes: array (
+  'class' => 'TotoController',
+  'plugin' => NULL,
+)
+Request URL: /toto/tptp
+Stack Trace:
+#0 /var/www/cakephp/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-06 01:10:45 Error: [MissingActionException] Action PagesController::tutu() could not be found.
+Exception Attributes: array (
+  'controller' => 'PagesController',
+  'action' => 'tutu',
+)
+Request URL: /pages/tutu
+Stack Trace:
+#0 /var/www/cakephp/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/cakephp/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#2 /var/www/cakephp/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-01-06 01:11:25 Error: [MissingViewException] View file "/var/www/cakephp/app/View/Pages/tutu.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/var/www/cakephp/app/View/Pages/tutu.ctp',
+)
+Request URL: /pages/tutu
+Stack Trace:
+#0 /var/www/cakephp/lib/Cake/View/View.php(457): View->_getViewFileName('tutu')
+#1 /var/www/cakephp/lib/Cake/Controller/Controller.php(952): View->render('tutu', NULL)
+#2 /var/www/cakephp/app/Controller/PagesController.php(103): Controller->render('tutu')
+#3 [internal function]: PagesController->diary('tutu')
+#4 /var/www/cakephp/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#5 /var/www/cakephp/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#6 /var/www/cakephp/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#7 /var/www/cakephp/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2015-01-06 01:11:58 Error: [MissingActionException] Action PagesController::tutu() could not be found.
+Exception Attributes: array (
+  'controller' => 'PagesController',
+  'action' => 'tutu',
+)
+Request URL: /pages/tutu
+Stack Trace:
+#0 /var/www/cakephp/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/cakephp/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#2 /var/www/cakephp/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-01-06 01:26:56 Error: [MissingViewException] View file "/var/www/cakephp/app/View/Pages/save.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/var/www/cakephp/app/View/Pages/save.ctp',
+)
+Request URL: /pages/save
+Stack Trace:
+#0 /var/www/cakephp/lib/Cake/View/View.php(457): View->_getViewFileName('save')
+#1 /var/www/cakephp/lib/Cake/Controller/Controller.php(952): View->render('save', NULL)
+#2 /var/www/cakephp/app/Controller/PagesController.php(103): Controller->render('save')
+#3 [internal function]: PagesController->diary('save')
+#4 /var/www/cakephp/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#5 /var/www/cakephp/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#6 /var/www/cakephp/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#7 /var/www/cakephp/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2015-01-06 01:27:00 Error: [MissingViewException] View file "/var/www/cakephp/app/View/Pages/save.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/var/www/cakephp/app/View/Pages/save.ctp',
+)
+Request URL: /pages/save
+Stack Trace:
+#0 /var/www/cakephp/lib/Cake/View/View.php(457): View->_getViewFileName('save')
+#1 /var/www/cakephp/lib/Cake/Controller/Controller.php(952): View->render('save', NULL)
+#2 /var/www/cakephp/app/Controller/PagesController.php(103): Controller->render('save')
+#3 [internal function]: PagesController->diary('save')
+#4 /var/www/cakephp/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#5 /var/www/cakephp/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#6 /var/www/cakephp/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#7 /var/www/cakephp/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2015-01-06 01:27:01 Error: [MissingViewException] View file "/var/www/cakephp/app/View/Pages/save.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/var/www/cakephp/app/View/Pages/save.ctp',
+)
+Request URL: /pages/save
+Stack Trace:
+#0 /var/www/cakephp/lib/Cake/View/View.php(457): View->_getViewFileName('save')
+#1 /var/www/cakephp/lib/Cake/Controller/Controller.php(952): View->render('save', NULL)
+#2 /var/www/cakephp/app/Controller/PagesController.php(103): Controller->render('save')
+#3 [internal function]: PagesController->diary('save')
+#4 /var/www/cakephp/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#5 /var/www/cakephp/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#6 /var/www/cakephp/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#7 /var/www/cakephp/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2015-01-06 01:27:01 Error: [MissingViewException] View file "/var/www/cakephp/app/View/Pages/save.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/var/www/cakephp/app/View/Pages/save.ctp',
+)
+Request URL: /pages/save
+Stack Trace:
+#0 /var/www/cakephp/lib/Cake/View/View.php(457): View->_getViewFileName('save')
+#1 /var/www/cakephp/lib/Cake/Controller/Controller.php(952): View->render('save', NULL)
+#2 /var/www/cakephp/app/Controller/PagesController.php(103): Controller->render('save')
+#3 [internal function]: PagesController->diary('save')
+#4 /var/www/cakephp/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#5 /var/www/cakephp/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#6 /var/www/cakephp/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#7 /var/www/cakephp/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2015-01-06 01:27:04 Error: [MissingViewException] View file "/var/www/cakephp/app/View/Pages/save.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/var/www/cakephp/app/View/Pages/save.ctp',
+)
+Request URL: /pages/save
+Stack Trace:
+#0 /var/www/cakephp/lib/Cake/View/View.php(457): View->_getViewFileName('save')
+#1 /var/www/cakephp/lib/Cake/Controller/Controller.php(952): View->render('save', NULL)
+#2 /var/www/cakephp/app/Controller/PagesController.php(103): Controller->render('save')
+#3 [internal function]: PagesController->diary('save')
+#4 /var/www/cakephp/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#5 /var/www/cakephp/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#6 /var/www/cakephp/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#7 /var/www/cakephp/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2015-01-06 01:27:08 Error: [MissingViewException] View file "/var/www/cakephp/app/View/Pages/save.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/var/www/cakephp/app/View/Pages/save.ctp',
+)
+Request URL: /pages/save
+Stack Trace:
+#0 /var/www/cakephp/lib/Cake/View/View.php(457): View->_getViewFileName('save')
+#1 /var/www/cakephp/lib/Cake/Controller/Controller.php(952): View->render('save', NULL)
+#2 /var/www/cakephp/app/Controller/PagesController.php(103): Controller->render('save')
+#3 [internal function]: PagesController->diary('save')
+#4 /var/www/cakephp/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#5 /var/www/cakephp/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#6 /var/www/cakephp/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#7 /var/www/cakephp/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2015-01-06 01:35:46 Error: [MissingViewException] View file "/var/www/cakephp/app/View/Pages/save.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/var/www/cakephp/app/View/Pages/save.ctp',
+)
+Request URL: /pages/save
+Stack Trace:
+#0 /var/www/cakephp/lib/Cake/View/View.php(457): View->_getViewFileName('save')
+#1 /var/www/cakephp/lib/Cake/Controller/Controller.php(952): View->render('save', NULL)
+#2 /var/www/cakephp/app/Controller/PagesController.php(111): Controller->render('save')
+#3 [internal function]: PagesController->diary('save')
+#4 /var/www/cakephp/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#5 /var/www/cakephp/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#6 /var/www/cakephp/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#7 /var/www/cakephp/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2015-01-06 01:35:48 Error: [MissingViewException] View file "/var/www/cakephp/app/View/Pages/save.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/var/www/cakephp/app/View/Pages/save.ctp',
+)
+Request URL: /pages/save
+Stack Trace:
+#0 /var/www/cakephp/lib/Cake/View/View.php(457): View->_getViewFileName('save')
+#1 /var/www/cakephp/lib/Cake/Controller/Controller.php(952): View->render('save', NULL)
+#2 /var/www/cakephp/app/Controller/PagesController.php(111): Controller->render('save')
+#3 [internal function]: PagesController->diary('save')
+#4 /var/www/cakephp/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#5 /var/www/cakephp/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#6 /var/www/cakephp/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#7 /var/www/cakephp/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2015-01-06 01:35:58 Error: [MissingViewException] View file "/var/www/cakephp/app/View/Pages/save.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/var/www/cakephp/app/View/Pages/save.ctp',
+)
+Request URL: /pages/save
+Stack Trace:
+#0 /var/www/cakephp/lib/Cake/View/View.php(457): View->_getViewFileName('save')
+#1 /var/www/cakephp/lib/Cake/Controller/Controller.php(952): View->render('save', NULL)
+#2 /var/www/cakephp/app/Controller/PagesController.php(111): Controller->render('save')
+#3 [internal function]: PagesController->diary('save')
+#4 /var/www/cakephp/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#5 /var/www/cakephp/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#6 /var/www/cakephp/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#7 /var/www/cakephp/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2015-01-06 01:36:31 Error: [MissingViewException] View file "/var/www/cakephp/app/View/Pages/save.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/var/www/cakephp/app/View/Pages/save.ctp',
+)
+Request URL: /pages/save
+Stack Trace:
+#0 /var/www/cakephp/lib/Cake/View/View.php(457): View->_getViewFileName('save')
+#1 /var/www/cakephp/lib/Cake/Controller/Controller.php(952): View->render('save', NULL)
+#2 /var/www/cakephp/app/Controller/PagesController.php(111): Controller->render('save')
+#3 [internal function]: PagesController->diary('save')
+#4 /var/www/cakephp/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#5 /var/www/cakephp/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#6 /var/www/cakephp/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#7 /var/www/cakephp/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2015-01-06 01:37:48 Error: [MissingViewException] View file "/var/www/cakephp/app/View/Pages/save.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/var/www/cakephp/app/View/Pages/save.ctp',
+)
+Request URL: /pages/save
+Stack Trace:
+#0 /var/www/cakephp/lib/Cake/View/View.php(457): View->_getViewFileName('save')
+#1 /var/www/cakephp/lib/Cake/Controller/Controller.php(952): View->render('save', NULL)
+#2 /var/www/cakephp/app/Controller/PagesController.php(111): Controller->render('save')
+#3 [internal function]: PagesController->diary('save')
+#4 /var/www/cakephp/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#5 /var/www/cakephp/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#6 /var/www/cakephp/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#7 /var/www/cakephp/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2015-01-06 01:43:06 Error: [MissingViewException] View file "/var/www/cakephp/app/View/Pages/save.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/var/www/cakephp/app/View/Pages/save.ctp',
+)
+Request URL: /pages/save
+Stack Trace:
+#0 /var/www/cakephp/lib/Cake/View/View.php(457): View->_getViewFileName('save')
+#1 /var/www/cakephp/lib/Cake/Controller/Controller.php(952): View->render('save', NULL)
+#2 /var/www/cakephp/app/Controller/PagesController.php(111): Controller->render('save')
+#3 [internal function]: PagesController->diary('save')
+#4 /var/www/cakephp/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#5 /var/www/cakephp/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#6 /var/www/cakephp/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#7 /var/www/cakephp/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2015-01-06 01:43:10 Error: [MissingViewException] View file "/var/www/cakephp/app/View/Pages/save.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/var/www/cakephp/app/View/Pages/save.ctp',
+)
+Request URL: /pages/save
+Stack Trace:
+#0 /var/www/cakephp/lib/Cake/View/View.php(457): View->_getViewFileName('save')
+#1 /var/www/cakephp/lib/Cake/Controller/Controller.php(952): View->render('save', NULL)
+#2 /var/www/cakephp/app/Controller/PagesController.php(111): Controller->render('save')
+#3 [internal function]: PagesController->diary('save')
+#4 /var/www/cakephp/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#5 /var/www/cakephp/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#6 /var/www/cakephp/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#7 /var/www/cakephp/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2015-01-06 01:43:10 Error: [MissingViewException] View file "/var/www/cakephp/app/View/Pages/save.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/var/www/cakephp/app/View/Pages/save.ctp',
+)
+Request URL: /pages/save
+Stack Trace:
+#0 /var/www/cakephp/lib/Cake/View/View.php(457): View->_getViewFileName('save')
+#1 /var/www/cakephp/lib/Cake/Controller/Controller.php(952): View->render('save', NULL)
+#2 /var/www/cakephp/app/Controller/PagesController.php(111): Controller->render('save')
+#3 [internal function]: PagesController->diary('save')
+#4 /var/www/cakephp/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#5 /var/www/cakephp/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#6 /var/www/cakephp/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#7 /var/www/cakephp/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2015-01-06 01:45:45 Error: [MissingViewException] View file "/var/www/cakephp/app/View/Pages/save.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/var/www/cakephp/app/View/Pages/save.ctp',
+)
+Request URL: /pages/save
+Stack Trace:
+#0 /var/www/cakephp/lib/Cake/View/View.php(457): View->_getViewFileName('save')
+#1 /var/www/cakephp/lib/Cake/Controller/Controller.php(952): View->render('save', NULL)
+#2 /var/www/cakephp/app/Controller/PagesController.php(111): Controller->render('save')
+#3 [internal function]: PagesController->diary('save')
+#4 /var/www/cakephp/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#5 /var/www/cakephp/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#6 /var/www/cakephp/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#7 /var/www/cakephp/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2015-01-06 01:48:56 Error: Fatal Error (1): Call to a member function close() on a non-object in [/var/www/cakephp/app/Controller/PagesController.php, line 143]
+2015-01-06 01:48:56 Error: [FatalErrorException] Call to a member function close() on a non-object
+Request URL: /pages/save
+Stack Trace:
+#0 /var/www/cakephp/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/var/www/cakeph...', 143)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/var/www/cakeph...', 143, Array)
+#2 /var/www/cakephp/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/var/www/cakeph...', 143, Array)
+#3 /var/www/cakephp/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-01-06 02:14:38 Error: [MissingActionException] Action PagesController::save() could not be found.
+Exception Attributes: array (
+  'controller' => 'PagesController',
+  'action' => 'save',
+)
+Request URL: /pages/save
+Stack Trace:
+#0 /var/www/cakephp/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/cakephp/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#2 /var/www/cakephp/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}

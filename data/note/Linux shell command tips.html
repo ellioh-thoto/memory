@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <title>Linux shell command tips</title>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
+</head>
+<body>
+  <h1>Linux shell command tips</h1>
+  <div id="content">
+    <br><div><p class="MsoNormal"><span style="color:#1F497D"><b>ls *.crt | grep CA | while read
+f; do echo $f; openssl verify $f; done;</b><o:p></o:p></span></p><p class="MsoNormal"><span style="color:#1F497D">Exemple de resultat :&nbsp;</span></p><p class="MsoNormal"><span style="color:#1F497D">&nbsp;</span></p><p class="MsoNormal"><span style="color:red">CA-mailroom.neopost-id.com.crt<o:p></o:p></span></p><p class="MsoNormal"><span style="color:red">unable to load certificate<o:p></o:p></span></p><p class="MsoNormal"><span style="color:red">140214035441472:error:0906D06C:PEM
+routines:PEM_read_bio:no start line:pem_lib.c:696:Expecting: TRUSTED
+CERTIFICATE<o:p></o:p></span></p><p class="MsoNormal"><span style="color:#1F497D">CA-neopost-id.crt<o:p></o:p></span></p><p class="MsoNormal"><span style="color:#1F497D">CA-neopost-id.crt: OK<o:p></o:p></span></p><p class="MsoNormal"><span style="color:#1F497D">CA-ossmr.mesenvois.fr.crt<o:p></o:p></span></p><p class="MsoNormal"><span style="color:#1F497D">CA-ossmr.mesenvois.fr.crt: OK<o:p></o:p></span></p><p class="MsoNormal"><span style="color:#1F497D">CA-oss.neopost-id.crt<o:p></o:p></span></p><p class="MsoNormal"><span style="color:#1F497D">CA-oss.neopost-id.crt: OK<o:p></o:p></span></p><p class="MsoNormal"><span style="color:#1F497D">clickandsendIntermediateCA.crt<o:p></o:p></span></p><p class="MsoNormal"><span style="color:#1F497D">clickandsendIntermediateCA.crt:
+OK<o:p></o:p></span></p><p class="MsoNormal"><span style="color:#1F497D">geotrust-intermediate-CA.crt<o:p></o:p></span></p><p class="MsoNormal"><span style="color:#1F497D">unable to load certificate<o:p></o:p></span></p><p class="MsoNormal">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</p><p class="MsoNormal"><span style="color:#1F497D">140577978984256:error:0906D06C:PEM
+routines:PEM_read_bio:no start line:pem_lib.c:696:Expecting: TRUSTED
+CERTIFICATE<o:p></o:p></span></p></div>
+  </div>
+</body>
+</html>
