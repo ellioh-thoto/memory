@@ -120,9 +120,9 @@ class PagesController extends AppController {
     /**
      *$the_filename, $the_content
      */
-    public function save($filename, $content) {
-
-        $this->
+    public function save() {
+//echo "coucou";
+//        echo print_r($this->request);
 
 
 //        $path = func_get_args();
@@ -143,10 +143,25 @@ class PagesController extends AppController {
 //        // $file->append('J'ajoute à la fin de ce fichier.');
         // $file->delete(); // Je supprime ce fichier
 //        $file->close(); // Assurez vous de fermer le fichier quand c'est fini
+//        $filename = "test";
+//        echo json_encode("Done!");
+        echo(base64_decode($this->request->pass[0]));
+        echo(base64_decode($this->request->pass[1]));
+//        echo($this->request->pass[0]);
+//        echo($this->request->pass[1]);
 
-        echo json_encode($filename);
         exit();
 
+
+    }
+
+    public function test(){
+        echo($this->request->pass[0]);
+//        echo json_encode("Done!");
+        exit();
+    }
+
+    public function loader(){
 
     }
 

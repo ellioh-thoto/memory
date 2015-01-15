@@ -71,7 +71,16 @@ foreach ($prefixes as $prefix) {
 }
 
 Router::connect('/pages', array("controller"=>"pages", "action" => "diary"));
-//Router::connect('/pages/save', array("controller"=>"pages", "action" => "save"));
+/* Path for save action*/
+Router::connect('/pages/test:filename-:content',
+    array("controller"=>"pages", "action" => "test"),
+    array(
+        "pass" =>array('filename','content'),
+        "filename" => "[a-zA-Z0-9\-]+",
+        "content" => "[a-zA-Z0-9\-]+"
+    )
+);
+
 Router::connect('/pages/save/:filename-:content',
     array("controller"=>"pages", "action" => "save"),
     array(
@@ -81,8 +90,10 @@ Router::connect('/pages/save/:filename-:content',
     )
 );
 
+
 Router::connect('/:controller', array('action' => 'index'));
 Router::connect('/:controller/:action/*');
+
 
 
 $namedConfig = Router::namedConfig();

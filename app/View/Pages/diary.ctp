@@ -31,7 +31,7 @@ endif;
     </div>
         <div id="right">
             <div id = "top-menu">
-                <?php echo $this->Html->link('Test', array('action' => 'save'), array('class' => 'ajax')); ?>
+                <?php echo $this->Html->link('Test', array('controller'=>'pages','action' => 'save'), array('class' => 'ajax', 'id'=>'ajaxbutton')); ?>
                 <h1></h1>
                 <div class = "top-menu-action-buttons">
                     <input class="btn btn-primary" type="button" value="Save">
@@ -50,71 +50,3 @@ endif;
 </div>
 
 
-
-<script>
-
-    var selected = '#editor0';
-    var selected_filename = '';
-    $( document ).ready(function() {
-
-        // On first load, display selected content
-        $('.ckeditor').parent('div').hide();
-        $(selected).parent('div').show();
-        console.log('eth : Loaded!');
-
-        // Display title of selected content
-        $.each($('.left_menu_item'), function(){
-            if ($(this).attr('href') == selected) {
-                selected_filename = $(this).text();
-                $('#top-menu h1').text($(this).text());
-            }
-        });
-
-        // On click dislay selected content
-        $('.left_menu_item').click(function(){
-            if ($(this).attr('href') != selected) {
-                $(selected).parent('div').hide();
-                selected = $(this).attr('href');
-                $(selected).parent('div').show();
-            }
-            // Display title of selected content
-            $.each($('.left_menu_item'), function(){
-                if ($(this).attr('href') == selected) {
-                    selected_filename = $(this).text();
-                    $('#top-menu h1').text($(this).text()).hide();
-                }
-                $('#top-menu h1').fadeIn();
-            });
-        });
-
-        //Save action
-
-        $('.ajax').on('click', function(){
-            console.log('eth : passed');
-            $.get($(this).attr('href'),
-                {filename:"test.php",
-//                    content:$("#"+selected).text()}, function(data){
-                    content: "contenu"
-                },
-                function(data){
-               alert(data);
-            });
-            return false;
-        });
-//        $('#save').click(function(){
-//            $.ajax({
-//                url: "/save",
-//                context: document.body
-//            }).done(function() {
-//                alert('saved');
-//            });
-//            .fail(function() {
-//                alert( "error" );
-//            })
-//            .always(function() {
-//                alert( "complete" );
-//            });
-//        });
-
-    });
-</script>
