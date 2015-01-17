@@ -8,6 +8,21 @@ $( document ).ready(function() {
 
     /* Initialize page content */
 
+    /*
+     * Load selected item
+     */
+        console.log('eth : load start...  ');
+        $.get('pages/load/',
+            {},
+            function(data){
+                var dataObject = jQuery.parseJSON(data);
+                $('#editorx').val(dataObject.selectedFileContent);
+                console.log(dataObject.selectedFileContent);
+            });
+        return false;
+    //});
+
+
     // On first load, display selected content
     $('.ckeditor').parent('div').hide();
     $(selected).parent('div').show();
