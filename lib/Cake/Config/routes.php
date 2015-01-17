@@ -70,7 +70,10 @@ foreach ($prefixes as $prefix) {
 	Router::connect("/{$prefix}/:controller/:action/*", $params);
 }
 
+// ---- My custom paths ----
+
 Router::connect('/pages', array("controller"=>"pages", "action" => "diary"));
+
 /* Path for save action*/
 Router::connect('/pages/test:filename-:content',
     array("controller"=>"pages", "action" => "test"),
@@ -90,6 +93,13 @@ Router::connect('/pages/save/:filename-:content',
     )
 );
 
+Router::connect('/pages/save/:filename-:content',
+    array("controller"=>"pages", "action" => "load"),
+    array(
+        "pass" =>array('filename'),
+        "filename" => "[a-zA-Z0-9\-]+",
+    )
+);
 
 Router::connect('/:controller', array('action' => 'index'));
 Router::connect('/:controller/:action/*');

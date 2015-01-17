@@ -146,15 +146,29 @@ class PagesController extends AppController
      */
     public function load()
     {
-        // Get current file from Sesssion
-        $selectedFromSession = $this->Session->read("selected");
+        // Get filename from params
+
+        if(isset($this->request->pass))
+            if(isset($this->request->pass[0]))
+                $selectedFilename = base64_decode($this->request->pass[0]);
+
+        // Get current filename from Sesssion
+        if (empty($selectedFilename))
+            $selectedFilename = $this->Session->read("selected");
+
+        // Get all files name
+
+        $filenames = $this->noteDir->find('.*\.html');
 
         // Get current file from articles directory
 
-        if (!empty($selectedFromSession))
-            $fileSelected = $this->noteDir->find('.' . $selectedFromSession . '*\.html');
+        if (!empty($selectedFilename)) {
+            $tmp = $this->noteDir->find('.*^'.$selectedFilename.'\.html');
+            $fileSelected = $tmp[0];
+        }
         else {
-            $filenames = $this->noteDir->find('.*\.html');
+
+            //If none selected we take the first artcle as selected
             $fileSelected = $filenames[0];
         }
 
@@ -173,7 +187,6 @@ class PagesController extends AppController
         foreach ($filenames as $filename) {
             $file = new File($this->noteDir->pwd() . DS . $filename);
             $notes[] = $file->name();
-//            $fileContents[] = $file->read();
             $file->close();
         }
 
@@ -186,7 +199,7 @@ class PagesController extends AppController
 
         echo json_encode(array(
             "fileSelected" => $fileSelected,
-            "fileContents" => $fileContents,
+            "noteSelected" => $file->name(),
             "selectedFileContent" => $selectedFileContent,
             "notes" => $notes
         ));
