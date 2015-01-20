@@ -903,3 +903,801 @@ Stack Trace:
 #1 /var/www/cakephp/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
 #2 /var/www/cakephp/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #3 {main}
+2015-01-13 19:32:59 Error: Fatal Error (4): syntax error, unexpected T_ECHO, expecting T_STRING or T_VARIABLE or '{' or '$' in [/var/www/ediary.reloaded/app/Controller/PagesController.php, line 147]
+2015-01-13 19:32:59 Error: [FatalErrorException] syntax error, unexpected T_ECHO, expecting T_STRING or T_VARIABLE or '{' or '$'
+Request URL: /ediary.reloaded/
+Stack Trace:
+#0 /var/www/ediary.reloaded/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/ediary...', 147)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/ediary...', 147, Array)
+#2 /var/www/ediary.reloaded/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/ediary...', 147, Array)
+#3 /var/www/ediary.reloaded/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-01-13 19:37:35 Error: Fatal Error (4): syntax error, unexpected T_ECHO, expecting T_STRING or T_VARIABLE or '{' or '$' in [/var/www/ediary.reloaded/app/Controller/PagesController.php, line 147]
+2015-01-13 19:37:35 Error: [FatalErrorException] syntax error, unexpected T_ECHO, expecting T_STRING or T_VARIABLE or '{' or '$'
+Request URL: /
+Stack Trace:
+#0 /var/www/ediary.reloaded/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/ediary...', 147)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/ediary...', 147, Array)
+#2 /var/www/ediary.reloaded/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/ediary...', 147, Array)
+#3 /var/www/ediary.reloaded/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-01-13 19:45:08 Error: [MissingViewException] View file "/var/www/ediary.reloaded/app/View/Pages/save.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/var/www/ediary.reloaded/app/View/Pages/save.ctp',
+)
+Request URL: /pages/save?filename=test.php&content=contenu
+Stack Trace:
+#0 /var/www/ediary.reloaded/lib/Cake/View/View.php(457): View->_getViewFileName(NULL)
+#1 /var/www/ediary.reloaded/lib/Cake/Controller/Controller.php(952): View->render(NULL, NULL)
+#2 /var/www/ediary.reloaded/lib/Cake/Routing/Dispatcher.php(192): Controller->render()
+#3 /var/www/ediary.reloaded/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/ediary.reloaded/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-01-13 19:45:18 Error: [MissingViewException] View file "/var/www/ediary.reloaded/app/View/Pages/save.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/var/www/ediary.reloaded/app/View/Pages/save.ctp',
+)
+Request URL: /pages/save?filename=test.php&content=contenu
+Stack Trace:
+#0 /var/www/ediary.reloaded/lib/Cake/View/View.php(457): View->_getViewFileName(NULL)
+#1 /var/www/ediary.reloaded/lib/Cake/Controller/Controller.php(952): View->render(NULL, NULL)
+#2 /var/www/ediary.reloaded/lib/Cake/Routing/Dispatcher.php(192): Controller->render()
+#3 /var/www/ediary.reloaded/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/ediary.reloaded/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-01-13 19:45:26 Error: [MissingViewException] View file "/var/www/ediary.reloaded/app/View/Pages/save.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/var/www/ediary.reloaded/app/View/Pages/save.ctp',
+)
+Request URL: /pages/save?filename=test.php&content=contenu
+Stack Trace:
+#0 /var/www/ediary.reloaded/lib/Cake/View/View.php(457): View->_getViewFileName(NULL)
+#1 /var/www/ediary.reloaded/lib/Cake/Controller/Controller.php(952): View->render(NULL, NULL)
+#2 /var/www/ediary.reloaded/lib/Cake/Routing/Dispatcher.php(192): Controller->render()
+#3 /var/www/ediary.reloaded/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/ediary.reloaded/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-01-13 19:46:01 Error: [MissingViewException] View file "/var/www/ediary.reloaded/app/View/Pages/save.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/var/www/ediary.reloaded/app/View/Pages/save.ctp',
+)
+Request URL: /pages/save?filename=test.php&content=contenu
+Stack Trace:
+#0 /var/www/ediary.reloaded/lib/Cake/View/View.php(457): View->_getViewFileName(NULL)
+#1 /var/www/ediary.reloaded/lib/Cake/Controller/Controller.php(952): View->render(NULL, NULL)
+#2 /var/www/ediary.reloaded/lib/Cake/Routing/Dispatcher.php(192): Controller->render()
+#3 /var/www/ediary.reloaded/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/ediary.reloaded/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-01-13 19:48:48 Error: [MissingViewException] View file "/var/www/ediary.reloaded/app/View/Pages/save.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/var/www/ediary.reloaded/app/View/Pages/save.ctp',
+)
+Request URL: /pages/save?filename=test.php&content=contenu
+Stack Trace:
+#0 /var/www/ediary.reloaded/lib/Cake/View/View.php(457): View->_getViewFileName(NULL)
+#1 /var/www/ediary.reloaded/lib/Cake/Controller/Controller.php(952): View->render(NULL, NULL)
+#2 /var/www/ediary.reloaded/lib/Cake/Routing/Dispatcher.php(192): Controller->render()
+#3 /var/www/ediary.reloaded/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/ediary.reloaded/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-01-13 19:49:52 Error: [MissingControllerException] Controller class PageController could not be found.
+Exception Attributes: array (
+  'class' => 'PageController',
+  'plugin' => NULL,
+)
+Request URL: /page/save?filename=test.php&content=contenu
+Stack Trace:
+#0 /var/www/ediary.reloaded/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-13 19:50:27 Error: [MissingControllerException] Controller class PageController could not be found.
+Exception Attributes: array (
+  'class' => 'PageController',
+  'plugin' => NULL,
+)
+Request URL: /page/save?filename=test.php&content=contenu
+Stack Trace:
+#0 /var/www/ediary.reloaded/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-13 19:51:43 Error: [MissingControllerException] Controller class PageController could not be found.
+Exception Attributes: array (
+  'class' => 'PageController',
+  'plugin' => NULL,
+)
+Request URL: /page/save?filename=test.php&content=contenu
+Stack Trace:
+#0 /var/www/ediary.reloaded/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-13 19:51:52 Error: [MissingControllerException] Controller class PageController could not be found.
+Exception Attributes: array (
+  'class' => 'PageController',
+  'plugin' => NULL,
+)
+Request URL: /page/save
+Stack Trace:
+#0 /var/www/ediary.reloaded/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-13 19:52:35 Error: [MissingViewException] View file "/var/www/ediary.reloaded/app/View/Pages/save.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/var/www/ediary.reloaded/app/View/Pages/save.ctp',
+)
+Request URL: /pages/save?filename=test.php&content=contenu
+Stack Trace:
+#0 /var/www/ediary.reloaded/lib/Cake/View/View.php(457): View->_getViewFileName(NULL)
+#1 /var/www/ediary.reloaded/lib/Cake/Controller/Controller.php(952): View->render(NULL, NULL)
+#2 /var/www/ediary.reloaded/lib/Cake/Routing/Dispatcher.php(192): Controller->render()
+#3 /var/www/ediary.reloaded/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/ediary.reloaded/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-01-13 19:53:15 Error: [MissingViewException] View file "/var/www/ediary.reloaded/app/View/Pages/save.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/var/www/ediary.reloaded/app/View/Pages/save.ctp',
+)
+Request URL: /pages/save?filename=test.php&content=contenu
+Stack Trace:
+#0 /var/www/ediary.reloaded/lib/Cake/View/View.php(457): View->_getViewFileName(NULL)
+#1 /var/www/ediary.reloaded/lib/Cake/Controller/Controller.php(952): View->render(NULL, NULL)
+#2 /var/www/ediary.reloaded/lib/Cake/Routing/Dispatcher.php(192): Controller->render()
+#3 /var/www/ediary.reloaded/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/ediary.reloaded/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-01-13 19:53:34 Error: [MissingViewException] View file "/var/www/ediary.reloaded/app/View/Pages/save.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/var/www/ediary.reloaded/app/View/Pages/save.ctp',
+)
+Request URL: /pages/save?filename=test.php&content=contenu
+Stack Trace:
+#0 /var/www/ediary.reloaded/lib/Cake/View/View.php(457): View->_getViewFileName(NULL)
+#1 /var/www/ediary.reloaded/lib/Cake/Controller/Controller.php(952): View->render(NULL, NULL)
+#2 /var/www/ediary.reloaded/lib/Cake/Routing/Dispatcher.php(192): Controller->render()
+#3 /var/www/ediary.reloaded/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/ediary.reloaded/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-01-13 19:53:41 Error: [MissingViewException] View file "/var/www/ediary.reloaded/app/View/Pages/save.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/var/www/ediary.reloaded/app/View/Pages/save.ctp',
+)
+Request URL: /pages/save?filename=test.php&content=contenu
+Stack Trace:
+#0 /var/www/ediary.reloaded/lib/Cake/View/View.php(457): View->_getViewFileName(NULL)
+#1 /var/www/ediary.reloaded/lib/Cake/Controller/Controller.php(952): View->render(NULL, NULL)
+#2 /var/www/ediary.reloaded/lib/Cake/Routing/Dispatcher.php(192): Controller->render()
+#3 /var/www/ediary.reloaded/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/ediary.reloaded/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-01-13 19:54:49 Error: [MissingViewException] View file "/var/www/ediary.reloaded/app/View/Pages/save.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/var/www/ediary.reloaded/app/View/Pages/save.ctp',
+)
+Request URL: /pages/save?filename=test.php&content=contenu
+Stack Trace:
+#0 /var/www/ediary.reloaded/lib/Cake/View/View.php(457): View->_getViewFileName(NULL)
+#1 /var/www/ediary.reloaded/lib/Cake/Controller/Controller.php(952): View->render(NULL, NULL)
+#2 /var/www/ediary.reloaded/lib/Cake/Routing/Dispatcher.php(192): Controller->render()
+#3 /var/www/ediary.reloaded/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/ediary.reloaded/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-01-13 19:55:08 Error: [MissingViewException] View file "/var/www/ediary.reloaded/app/View/Pages/save.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/var/www/ediary.reloaded/app/View/Pages/save.ctp',
+)
+Request URL: /pages/save?filename=test.php&content=contenu
+Stack Trace:
+#0 /var/www/ediary.reloaded/lib/Cake/View/View.php(457): View->_getViewFileName(NULL)
+#1 /var/www/ediary.reloaded/lib/Cake/Controller/Controller.php(952): View->render(NULL, NULL)
+#2 /var/www/ediary.reloaded/lib/Cake/Routing/Dispatcher.php(192): Controller->render()
+#3 /var/www/ediary.reloaded/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/ediary.reloaded/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-01-13 19:55:35 Error: [MissingViewException] View file "/var/www/ediary.reloaded/app/View/Pages/save.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/var/www/ediary.reloaded/app/View/Pages/save.ctp',
+)
+Request URL: /pages/save?filename=test.php&content=contenu
+Stack Trace:
+#0 /var/www/ediary.reloaded/lib/Cake/View/View.php(457): View->_getViewFileName(NULL)
+#1 /var/www/ediary.reloaded/lib/Cake/Controller/Controller.php(952): View->render(NULL, NULL)
+#2 /var/www/ediary.reloaded/lib/Cake/Routing/Dispatcher.php(192): Controller->render()
+#3 /var/www/ediary.reloaded/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/ediary.reloaded/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-01-13 19:55:45 Error: [MissingViewException] View file "/var/www/ediary.reloaded/app/View/Pages/save.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/var/www/ediary.reloaded/app/View/Pages/save.ctp',
+)
+Request URL: /pages/save?filename=test.php&content=contenu
+Stack Trace:
+#0 /var/www/ediary.reloaded/lib/Cake/View/View.php(457): View->_getViewFileName(NULL)
+#1 /var/www/ediary.reloaded/lib/Cake/Controller/Controller.php(952): View->render(NULL, NULL)
+#2 /var/www/ediary.reloaded/lib/Cake/Routing/Dispatcher.php(192): Controller->render()
+#3 /var/www/ediary.reloaded/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/ediary.reloaded/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-01-13 19:57:21 Error: [MissingViewException] View file "/var/www/ediary.reloaded/app/View/Pages/save.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/var/www/ediary.reloaded/app/View/Pages/save.ctp',
+)
+Request URL: /save
+Stack Trace:
+#0 /var/www/ediary.reloaded/lib/Cake/View/View.php(457): View->_getViewFileName(NULL)
+#1 /var/www/ediary.reloaded/lib/Cake/Controller/Controller.php(952): View->render(NULL, NULL)
+#2 /var/www/ediary.reloaded/lib/Cake/Routing/Dispatcher.php(192): Controller->render()
+#3 /var/www/ediary.reloaded/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/ediary.reloaded/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-01-13 19:58:25 Error: [MissingViewException] View file "/var/www/ediary.reloaded/app/View/Pages/save.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/var/www/ediary.reloaded/app/View/Pages/save.ctp',
+)
+Request URL: /save
+Stack Trace:
+#0 /var/www/ediary.reloaded/lib/Cake/View/View.php(457): View->_getViewFileName(NULL)
+#1 /var/www/ediary.reloaded/lib/Cake/Controller/Controller.php(952): View->render(NULL, NULL)
+#2 /var/www/ediary.reloaded/lib/Cake/Routing/Dispatcher.php(192): Controller->render()
+#3 /var/www/ediary.reloaded/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/ediary.reloaded/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-01-13 19:58:40 Error: [MissingViewException] View file "/var/www/ediary.reloaded/app/View/Pages/save.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/var/www/ediary.reloaded/app/View/Pages/save.ctp',
+)
+Request URL: /save
+Stack Trace:
+#0 /var/www/ediary.reloaded/lib/Cake/View/View.php(457): View->_getViewFileName(NULL)
+#1 /var/www/ediary.reloaded/lib/Cake/Controller/Controller.php(952): View->render(NULL, NULL)
+#2 /var/www/ediary.reloaded/lib/Cake/Routing/Dispatcher.php(192): Controller->render()
+#3 /var/www/ediary.reloaded/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/ediary.reloaded/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-01-13 19:59:12 Error: [MissingViewException] View file "/var/www/ediary.reloaded/app/View/Pages/save.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/var/www/ediary.reloaded/app/View/Pages/save.ctp',
+)
+Request URL: /save
+Stack Trace:
+#0 /var/www/ediary.reloaded/lib/Cake/View/View.php(457): View->_getViewFileName(NULL)
+#1 /var/www/ediary.reloaded/lib/Cake/Controller/Controller.php(952): View->render(NULL, NULL)
+#2 /var/www/ediary.reloaded/lib/Cake/Routing/Dispatcher.php(192): Controller->render()
+#3 /var/www/ediary.reloaded/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/ediary.reloaded/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-01-13 19:59:30 Error: [MissingViewException] View file "/var/www/ediary.reloaded/app/View/Pages/save.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/var/www/ediary.reloaded/app/View/Pages/save.ctp',
+)
+Request URL: /save
+Stack Trace:
+#0 /var/www/ediary.reloaded/lib/Cake/View/View.php(457): View->_getViewFileName(NULL)
+#1 /var/www/ediary.reloaded/lib/Cake/Controller/Controller.php(952): View->render(NULL, NULL)
+#2 /var/www/ediary.reloaded/lib/Cake/Routing/Dispatcher.php(192): Controller->render()
+#3 /var/www/ediary.reloaded/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/ediary.reloaded/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-01-13 19:59:49 Error: [MissingViewException] View file "/var/www/ediary.reloaded/app/View/Pages/save.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/var/www/ediary.reloaded/app/View/Pages/save.ctp',
+)
+Request URL: /save
+Stack Trace:
+#0 /var/www/ediary.reloaded/lib/Cake/View/View.php(457): View->_getViewFileName(NULL)
+#1 /var/www/ediary.reloaded/lib/Cake/Controller/Controller.php(952): View->render(NULL, NULL)
+#2 /var/www/ediary.reloaded/lib/Cake/Routing/Dispatcher.php(192): Controller->render()
+#3 /var/www/ediary.reloaded/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/ediary.reloaded/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-01-13 19:59:56 Error: [MissingViewException] View file "/var/www/ediary.reloaded/app/View/Pages/save.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/var/www/ediary.reloaded/app/View/Pages/save.ctp',
+)
+Request URL: /save
+Stack Trace:
+#0 /var/www/ediary.reloaded/lib/Cake/View/View.php(457): View->_getViewFileName(NULL)
+#1 /var/www/ediary.reloaded/lib/Cake/Controller/Controller.php(952): View->render(NULL, NULL)
+#2 /var/www/ediary.reloaded/lib/Cake/Routing/Dispatcher.php(192): Controller->render()
+#3 /var/www/ediary.reloaded/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/ediary.reloaded/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-01-13 20:00:07 Error: [MissingViewException] View file "/var/www/ediary.reloaded/app/View/Pages/save.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/var/www/ediary.reloaded/app/View/Pages/save.ctp',
+)
+Request URL: /save
+Stack Trace:
+#0 /var/www/ediary.reloaded/lib/Cake/View/View.php(457): View->_getViewFileName(NULL)
+#1 /var/www/ediary.reloaded/lib/Cake/Controller/Controller.php(952): View->render(NULL, NULL)
+#2 /var/www/ediary.reloaded/lib/Cake/Routing/Dispatcher.php(192): Controller->render()
+#3 /var/www/ediary.reloaded/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/ediary.reloaded/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-01-13 20:00:15 Error: [MissingViewException] View file "/var/www/ediary.reloaded/app/View/Pages/save.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/var/www/ediary.reloaded/app/View/Pages/save.ctp',
+)
+Request URL: /save
+Stack Trace:
+#0 /var/www/ediary.reloaded/lib/Cake/View/View.php(457): View->_getViewFileName(NULL)
+#1 /var/www/ediary.reloaded/lib/Cake/Controller/Controller.php(952): View->render(NULL, NULL)
+#2 /var/www/ediary.reloaded/lib/Cake/Routing/Dispatcher.php(192): Controller->render()
+#3 /var/www/ediary.reloaded/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/ediary.reloaded/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-01-13 20:10:27 Error: [MissingViewException] View file "/var/www/ediary.reloaded/app/View/Pages/save.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/var/www/ediary.reloaded/app/View/Pages/save.ctp',
+)
+Request URL: /pages/save/nomfile.php/contenupagesssssssssss
+Stack Trace:
+#0 /var/www/ediary.reloaded/lib/Cake/View/View.php(457): View->_getViewFileName(NULL)
+#1 /var/www/ediary.reloaded/lib/Cake/Controller/Controller.php(952): View->render(NULL, NULL)
+#2 /var/www/ediary.reloaded/lib/Cake/Routing/Dispatcher.php(192): Controller->render()
+#3 /var/www/ediary.reloaded/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/ediary.reloaded/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-01-15 20:34:50 Error: [MissingViewException] View file "/var/www/ediary.reloaded/app/View/Pages/ajax.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/var/www/ediary.reloaded/app/View/Pages/ajax.ctp',
+)
+Request URL: /pages/ajax
+Stack Trace:
+#0 /var/www/ediary.reloaded/lib/Cake/View/View.php(457): View->_getViewFileName(NULL)
+#1 /var/www/ediary.reloaded/lib/Cake/Controller/Controller.php(952): View->render(NULL, NULL)
+#2 /var/www/ediary.reloaded/lib/Cake/Routing/Dispatcher.php(192): Controller->render()
+#3 /var/www/ediary.reloaded/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/ediary.reloaded/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-01-15 20:37:20 Error: [MissingActionException] Action PagesController::test() could not be found.
+Exception Attributes: array (
+  'controller' => 'PagesController',
+  'action' => 'test',
+)
+Request URL: /pages/test
+Stack Trace:
+#0 /var/www/ediary.reloaded/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/ediary.reloaded/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#2 /var/www/ediary.reloaded/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-01-15 20:42:07 Error: [MissingActionException] Action PagesController::ajax() could not be found.
+Exception Attributes: array (
+  'controller' => 'PagesController',
+  'action' => 'ajax',
+)
+Request URL: /pages/ajax
+Stack Trace:
+#0 /var/www/ediary.reloaded/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/ediary.reloaded/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#2 /var/www/ediary.reloaded/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-01-15 20:45:47 Error: [MissingControllerException] Controller class SauverController could not be found.
+Exception Attributes: array (
+  'class' => 'SauverController',
+  'plugin' => NULL,
+)
+Request URL: /sauver
+Stack Trace:
+#0 /var/www/ediary.reloaded/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-15 20:46:13 Error: [MissingControllerException] Controller class SauverController could not be found.
+Exception Attributes: array (
+  'class' => 'SauverController',
+  'plugin' => NULL,
+)
+Request URL: /sauver
+Stack Trace:
+#0 /var/www/ediary.reloaded/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-15 20:46:47 Error: [MissingControllerException] Controller class SauverController could not be found.
+Exception Attributes: array (
+  'class' => 'SauverController',
+  'plugin' => NULL,
+)
+Request URL: /sauver
+Stack Trace:
+#0 /var/www/ediary.reloaded/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-15 20:46:47 Error: [MissingControllerException] Controller class SauverController could not be found.
+Exception Attributes: array (
+  'class' => 'SauverController',
+  'plugin' => NULL,
+)
+Request URL: /sauver
+Stack Trace:
+#0 /var/www/ediary.reloaded/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-15 20:46:50 Error: [MissingControllerException] Controller class SauverController could not be found.
+Exception Attributes: array (
+  'class' => 'SauverController',
+  'plugin' => NULL,
+)
+Request URL: /sauver
+Stack Trace:
+#0 /var/www/ediary.reloaded/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-15 20:46:51 Error: [MissingControllerException] Controller class SauverController could not be found.
+Exception Attributes: array (
+  'class' => 'SauverController',
+  'plugin' => NULL,
+)
+Request URL: /sauver
+Stack Trace:
+#0 /var/www/ediary.reloaded/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-15 20:47:04 Error: [MissingControllerException] Controller class SauverController could not be found.
+Exception Attributes: array (
+  'class' => 'SauverController',
+  'plugin' => NULL,
+)
+Request URL: /sauver
+Stack Trace:
+#0 /var/www/ediary.reloaded/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-15 20:47:49 Error: [MissingControllerException] Controller class SauverController could not be found.
+Exception Attributes: array (
+  'class' => 'SauverController',
+  'plugin' => NULL,
+)
+Request URL: /sauver
+Stack Trace:
+#0 /var/www/ediary.reloaded/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-15 21:39:32 Error: Fatal Error (1): Call to a member function pwd() on a non-object in [/var/www/ediary.reloaded/app/Controller/PagesController.php, line 141]
+2015-01-15 21:39:32 Error: [FatalErrorException] Call to a member function pwd() on a non-object
+Request URL: /pages/save/TmV3IE5vdGVtYWlscm9vbSA6d2lsZGNhcmQgY2VydGlmaWNhdGUgaXNzdWU=/ICAgICAgICAgICAgICAgIDwhRE9DVFlQRSBodG1sPgo8aHRtbD4KPGhlYWQ+CiAgPG1ldGEgY2hhcnNldD0idXRmLTgiIC8+CiAgPHRpdGxlPk5ldyBOb3RlbWFpbHJvb20gOndpbGRjYXJkIGNlcnRpZmljYXRlIGlzc3VlPC90aXRsZT4KICA8bWV0YSBodHRwLWVxdWl2PSJYLVVBLUNvbXBhdGlibGUiIGNvbnRlbnQ9IklFPWVkZ2UsY2hyb21lPTEiPiAKPC9oZWFkPgo8Ym9keT4KICA8aDE+TmV3IE5vdGVtYWlscm9vbSA6d2lsZGNhcmQgY2VydGlmaWNhdGUgaXNzdWU8L2gxPgogIDxkaXYgaWQ9ImNvbnRlbnQiPgogICAgPGI+PHU+UUMgTU9ESUZJQ0FUSU9OUzwvdT48L2I+PGRpdj48YnI+PC9kaXY+PGRpdj48cCBjbGFzcz0iTXNvTm9ybWFsIj48c3BhbiBsYW5nPSJGUiIgc3R5bGU9ImNvbG9yOiMxRjQ5N0Q7bXNvLWFuc2ktbGFuZ3VhZ2U6RlIiPjxhIGhyZWY9Imh0dHBzOi8vbmVvcG9zdC1xYzEubWFpbHJvb20ubmVvcG9zdC1pZC5jb20vIj4xMC43MC4yMi4xIGh0dHBzOi8vbmVvcG9zdC1xYzEubWFpbHJvb20ubmVvcG9zdC1pZC5jb20vPC9hPjxvOnA+PC9vOnA+PC9zcGFuPjwvcD4KCjxwIGNsYXNzPSJNc29Ob3JtYWwiPjxzcGFuIGxhbmc9IkZSIiBzdHlsZT0iY29sb3I6IzFGNDk3RDttc28tYW5zaS1sYW5ndWFnZTpGUiI+PGEgaHJlZj0iaHR0cHM6Ly9uZnJhbmNlLXFjMS5tYWlscm9vbS5uZW9wb3N0LWlkLmNvbS8iPjEwLjcwLjIyLjEgaHR0cHM6Ly9uZnJhbmNlLXFjMS5tYWlscm9vbS5uZW9wb3N0LWlkLmNvbS88L2E+PG86cD48L286cD48L3NwYW4+PC9wPjxwIGNsYXNzPSJNc29Ob3JtYWwiPjxicj48L3A+PHAgY2xhc3M9Ik1zb05vcm1hbCI+aHR0cHM6Ly9uZnJhbmNlLXFjMS5tYWlscm9vbS5uZW9wb3N0LWlkLmNvbS9tb2R1bGVzL29zcy9hcGkvc2FwL2luZGV4P3N6X0NsaWVudD1OZnJhbmNlPC9wPjxwIGNsYXNzPSJNc29Ob3JtYWwiPjxicj48L3A+PHAgY2xhc3M9Ik1zb05vcm1hbCI+aHR0cHM6Ly9uZW9wb3N0LXFjMS5tYWlscm9vbS5uZW9wb3N0LWlkLmNvbS9tb2R1bGVzL29zcy9hcGkvc2FwL2luZGV4P3N6X0NsaWVudD1OZnJhbmNlPC9wPjwvZGl2PgogIDwvZGl2Pgo8L2JvZHk+CjwvaHRtbD4KICAgICAgICAgICAg
+Stack Trace:
+#0 /var/www/ediary.reloaded/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/var/www/ediary...', 141)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/var/www/ediary...', 141, Array)
+#2 /var/www/ediary.reloaded/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/var/www/ediary...', 141, Array)
+#3 /var/www/ediary.reloaded/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-01-15 21:40:15 Error: Fatal Error (1): Call to a member function pwd() on a non-object in [/var/www/ediary.reloaded/app/Controller/PagesController.php, line 141]
+2015-01-15 21:40:15 Error: [FatalErrorException] Call to a member function pwd() on a non-object
+Request URL: /pages/save/TmV3IE5vdGVtYWlscm9vbSA6d2lsZGNhcmQgY2VydGlmaWNhdGUgaXNzdWU=/ICAgICAgICAgICAgICAgIDwhRE9DVFlQRSBodG1sPgo8aHRtbD4KPGhlYWQ+CiAgPG1ldGEgY2hhcnNldD0idXRmLTgiIC8+CiAgPHRpdGxlPk5ldyBOb3RlbWFpbHJvb20gOndpbGRjYXJkIGNlcnRpZmljYXRlIGlzc3VlPC90aXRsZT4KICA8bWV0YSBodHRwLWVxdWl2PSJYLVVBLUNvbXBhdGlibGUiIGNvbnRlbnQ9IklFPWVkZ2UsY2hyb21lPTEiPiAKPC9oZWFkPgo8Ym9keT4KICA8aDE+TmV3IE5vdGVtYWlscm9vbSA6d2lsZGNhcmQgY2VydGlmaWNhdGUgaXNzdWU8L2gxPgogIDxkaXYgaWQ9ImNvbnRlbnQiPgogICAgPGI+PHU+UUMgTU9ESUZJQ0FUSU9OUzwvdT48L2I+PGRpdj48YnI+PC9kaXY+PGRpdj48cCBjbGFzcz0iTXNvTm9ybWFsIj48c3BhbiBsYW5nPSJGUiIgc3R5bGU9ImNvbG9yOiMxRjQ5N0Q7bXNvLWFuc2ktbGFuZ3VhZ2U6RlIiPjxhIGhyZWY9Imh0dHBzOi8vbmVvcG9zdC1xYzEubWFpbHJvb20ubmVvcG9zdC1pZC5jb20vIj4xMC43MC4yMi4xIGh0dHBzOi8vbmVvcG9zdC1xYzEubWFpbHJvb20ubmVvcG9zdC1pZC5jb20vPC9hPjxvOnA+PC9vOnA+PC9zcGFuPjwvcD4KCjxwIGNsYXNzPSJNc29Ob3JtYWwiPjxzcGFuIGxhbmc9IkZSIiBzdHlsZT0iY29sb3I6IzFGNDk3RDttc28tYW5zaS1sYW5ndWFnZTpGUiI+PGEgaHJlZj0iaHR0cHM6Ly9uZnJhbmNlLXFjMS5tYWlscm9vbS5uZW9wb3N0LWlkLmNvbS8iPjEwLjcwLjIyLjEgaHR0cHM6Ly9uZnJhbmNlLXFjMS5tYWlscm9vbS5uZW9wb3N0LWlkLmNvbS88L2E+PG86cD48L286cD48L3NwYW4+PC9wPjxwIGNsYXNzPSJNc29Ob3JtYWwiPjxicj48L3A+PHAgY2xhc3M9Ik1zb05vcm1hbCI+aHR0cHM6Ly9uZnJhbmNlLXFjMS5tYWlscm9vbS5uZW9wb3N0LWlkLmNvbS9tb2R1bGVzL29zcy9hcGkvc2FwL2luZGV4P3N6X0NsaWVudD1OZnJhbmNlPC9wPjxwIGNsYXNzPSJNc29Ob3JtYWwiPjxicj48L3A+PHAgY2xhc3M9Ik1zb05vcm1hbCI+aHR0cHM6Ly9uZW9wb3N0LXFjMS5tYWlscm9vbS5uZW9wb3N0LWlkLmNvbS9tb2R1bGVzL29zcy9hcGkvc2FwL2luZGV4P3N6X0NsaWVudD1OZnJhbmNlPC9wPjwvZGl2PgogIDwvZGl2Pgo8L2JvZHk+CjwvaHRtbD4KICAgICAgICAgICAg
+Stack Trace:
+#0 /var/www/ediary.reloaded/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/var/www/ediary...', 141)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/var/www/ediary...', 141, Array)
+#2 /var/www/ediary.reloaded/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/var/www/ediary...', 141, Array)
+#3 /var/www/ediary.reloaded/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-01-15 21:41:09 Error: Fatal Error (1): Call to a member function pwd() on a non-object in [/var/www/ediary.reloaded/app/Controller/PagesController.php, line 141]
+2015-01-15 21:41:09 Error: [FatalErrorException] Call to a member function pwd() on a non-object
+Request URL: /pages/save/TmV3IE5vdGVtYWlscm9vbSA6d2lsZGNhcmQgY2VydGlmaWNhdGUgaXNzdWU=/ICAgICAgICAgICAgICAgIDwhRE9DVFlQRSBodG1sPgo8aHRtbD4KPGhlYWQ+CiAgPG1ldGEgY2hhcnNldD0idXRmLTgiIC8+CiAgPHRpdGxlPk5ldyBOb3RlbWFpbHJvb20gOndpbGRjYXJkIGNlcnRpZmljYXRlIGlzc3VlPC90aXRsZT4KICA8bWV0YSBodHRwLWVxdWl2PSJYLVVBLUNvbXBhdGlibGUiIGNvbnRlbnQ9IklFPWVkZ2UsY2hyb21lPTEiPiAKPC9oZWFkPgo8Ym9keT4KICA8aDE+TmV3IE5vdGVtYWlscm9vbSA6d2lsZGNhcmQgY2VydGlmaWNhdGUgaXNzdWU8L2gxPgogIDxkaXYgaWQ9ImNvbnRlbnQiPgogICAgPGI+PHU+UUMgTU9ESUZJQ0FUSU9OUzwvdT48L2I+PGRpdj48YnI+PC9kaXY+PGRpdj48cCBjbGFzcz0iTXNvTm9ybWFsIj48c3BhbiBsYW5nPSJGUiIgc3R5bGU9ImNvbG9yOiMxRjQ5N0Q7bXNvLWFuc2ktbGFuZ3VhZ2U6RlIiPjxhIGhyZWY9Imh0dHBzOi8vbmVvcG9zdC1xYzEubWFpbHJvb20ubmVvcG9zdC1pZC5jb20vIj4xMC43MC4yMi4xIGh0dHBzOi8vbmVvcG9zdC1xYzEubWFpbHJvb20ubmVvcG9zdC1pZC5jb20vPC9hPjxvOnA+PC9vOnA+PC9zcGFuPjwvcD4KCjxwIGNsYXNzPSJNc29Ob3JtYWwiPjxzcGFuIGxhbmc9IkZSIiBzdHlsZT0iY29sb3I6IzFGNDk3RDttc28tYW5zaS1sYW5ndWFnZTpGUiI+PGEgaHJlZj0iaHR0cHM6Ly9uZnJhbmNlLXFjMS5tYWlscm9vbS5uZW9wb3N0LWlkLmNvbS8iPjEwLjcwLjIyLjEgaHR0cHM6Ly9uZnJhbmNlLXFjMS5tYWlscm9vbS5uZW9wb3N0LWlkLmNvbS88L2E+PG86cD48L286cD48L3NwYW4+PC9wPjxwIGNsYXNzPSJNc29Ob3JtYWwiPjxicj48L3A+PHAgY2xhc3M9Ik1zb05vcm1hbCI+aHR0cHM6Ly9uZnJhbmNlLXFjMS5tYWlscm9vbS5uZW9wb3N0LWlkLmNvbS9tb2R1bGVzL29zcy9hcGkvc2FwL2luZGV4P3N6X0NsaWVudD1OZnJhbmNlPC9wPjxwIGNsYXNzPSJNc29Ob3JtYWwiPjxicj48L3A+PHAgY2xhc3M9Ik1zb05vcm1hbCI+aHR0cHM6Ly9uZW9wb3N0LXFjMS5tYWlscm9vbS5uZW9wb3N0LWlkLmNvbS9tb2R1bGVzL29zcy9hcGkvc2FwL2luZGV4P3N6X0NsaWVudD1OZnJhbmNlPC9wPjwvZGl2PgogIDwvZGl2Pgo8L2JvZHk+CjwvaHRtbD4KICAgICAgICAgICAg
+Stack Trace:
+#0 /var/www/ediary.reloaded/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/var/www/ediary...', 141)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/var/www/ediary...', 141, Array)
+#2 /var/www/ediary.reloaded/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/var/www/ediary...', 141, Array)
+#3 /var/www/ediary.reloaded/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-01-15 22:51:07 Error: Fatal Error (4): syntax error, unexpected T_VARIABLE in [/var/www/ediary.reloaded/app/Controller/PagesController.php, line 140]
+2015-01-15 22:51:07 Error: [FatalErrorException] syntax error, unexpected T_VARIABLE
+Request URL: /
+Stack Trace:
+#0 /var/www/ediary.reloaded/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/ediary...', 140)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/ediary...', 140, Array)
+#2 /var/www/ediary.reloaded/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/ediary...', 140, Array)
+#3 /var/www/ediary.reloaded/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-01-17 05:23:48 Error: [MissingActionException] Action PagesController::loader() could not be found.
+Exception Attributes: array (
+  'controller' => 'PagesController',
+  'action' => 'loader',
+)
+Request URL: /pages/loader
+Stack Trace:
+#0 /var/www/ediary.reloaded/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/ediary.reloaded/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#2 /var/www/ediary.reloaded/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-01-17 05:23:55 Error: [MissingViewException] View file "/var/www/ediary.reloaded/app/View/Pages/load.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/var/www/ediary.reloaded/app/View/Pages/load.ctp',
+)
+Request URL: /pages/load
+Stack Trace:
+#0 /var/www/ediary.reloaded/lib/Cake/View/View.php(457): View->_getViewFileName(NULL)
+#1 /var/www/ediary.reloaded/lib/Cake/Controller/Controller.php(952): View->render(NULL, NULL)
+#2 /var/www/ediary.reloaded/lib/Cake/Routing/Dispatcher.php(192): Controller->render()
+#3 /var/www/ediary.reloaded/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/ediary.reloaded/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-01-17 05:37:28 Error: [MissingViewException] View file "/var/www/ediary.reloaded/app/View/Pages/load.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/var/www/ediary.reloaded/app/View/Pages/load.ctp',
+)
+Request URL: /pages/load
+Stack Trace:
+#0 /var/www/ediary.reloaded/lib/Cake/View/View.php(457): View->_getViewFileName(NULL)
+#1 /var/www/ediary.reloaded/lib/Cake/Controller/Controller.php(952): View->render(NULL, NULL)
+#2 /var/www/ediary.reloaded/lib/Cake/Routing/Dispatcher.php(192): Controller->render()
+#3 /var/www/ediary.reloaded/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/ediary.reloaded/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-01-17 06:46:47 Error: [MissingViewException] View file "/var/www/ediary.reloaded/app/View/Pages/load.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/var/www/ediary.reloaded/app/View/Pages/load.ctp',
+)
+Request URL: /pages/load/
+Stack Trace:
+#0 /var/www/ediary.reloaded/lib/Cake/View/View.php(457): View->_getViewFileName(NULL)
+#1 /var/www/ediary.reloaded/lib/Cake/Controller/Controller.php(952): View->render(NULL, NULL)
+#2 /var/www/ediary.reloaded/lib/Cake/Routing/Dispatcher.php(192): Controller->render()
+#3 /var/www/ediary.reloaded/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/ediary.reloaded/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-01-17 06:55:12 Error: [MissingActionException] Action PagesController::loader() could not be found.
+Exception Attributes: array (
+  'controller' => 'PagesController',
+  'action' => 'loader',
+)
+Request URL: /pages/loader
+Stack Trace:
+#0 /var/www/ediary.reloaded/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/ediary.reloaded/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#2 /var/www/ediary.reloaded/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-01-17 06:55:13 Error: [MissingActionException] Action PagesController::pages() could not be found.
+Exception Attributes: array (
+  'controller' => 'PagesController',
+  'action' => 'pages',
+)
+Request URL: /pages/pages/load/
+Stack Trace:
+#0 /var/www/ediary.reloaded/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/ediary.reloaded/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#2 /var/www/ediary.reloaded/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-01-17 07:07:03 Error: Fatal Error (1): Call to a member function name() on a non-object in [/var/www/ediary.reloaded/app/Controller/PagesController.php, line 185]
+2015-01-17 07:07:03 Error: [FatalErrorException] Call to a member function name() on a non-object
+Request URL: /pages/load
+Stack Trace:
+#0 /var/www/ediary.reloaded/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/var/www/ediary...', 185)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/var/www/ediary...', 185, Array)
+#2 /var/www/ediary.reloaded/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/var/www/ediary...', 185, Array)
+#3 /var/www/ediary.reloaded/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-01-17 07:07:04 Error: [MissingActionException] Action PagesController::pages() could not be found.
+Exception Attributes: array (
+  'controller' => 'PagesController',
+  'action' => 'pages',
+)
+Request URL: /pages/pages/load/
+Stack Trace:
+#0 /var/www/ediary.reloaded/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/ediary.reloaded/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#2 /var/www/ediary.reloaded/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-01-17 08:03:44 Error: Fatal Error (4): syntax error, unexpected ';', expecting ')' in [/var/www/ediary.reloaded/app/Controller/PagesController.php, line 189]
+2015-01-17 08:03:44 Error: [FatalErrorException] syntax error, unexpected ';', expecting ')'
+Request URL: /
+Stack Trace:
+#0 /var/www/ediary.reloaded/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/ediary...', 189)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/ediary...', 189, Array)
+#2 /var/www/ediary.reloaded/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/ediary...', 189, Array)
+#3 /var/www/ediary.reloaded/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-01-17 08:03:44 Error: Fatal Error (4): syntax error, unexpected ';', expecting ')' in [/var/www/ediary.reloaded/app/Controller/PagesController.php, line 189]
+2015-01-17 08:03:44 Error: [FatalErrorException] syntax error, unexpected ';', expecting ')'
+Request URL: /pages/load/
+Stack Trace:
+#0 /var/www/ediary.reloaded/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/ediary...', 189)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/ediary...', 189, Array)
+#2 /var/www/ediary.reloaded/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/ediary...', 189, Array)
+#3 /var/www/ediary.reloaded/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-01-17 13:14:18 Error: Fatal Error (1): Allowed memory size of 134217728 bytes exhausted (tried to allocate 62914560 bytes) in [/var/www/ediary.reloaded/lib/Cake/basics.php, line 117]
+2015-01-17 13:14:18 Error: [FatalErrorException] Allowed memory size of 134217728 bytes exhausted (tried to allocate 62914560 bytes)
+Request URL: /pages/save
+Stack Trace:
+#0 /var/www/ediary.reloaded/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Allowed memory ...', '/var/www/ediary...', 117)
+#1 [internal function]: ErrorHandler::handleError(1, 'Allowed memory ...', '/var/www/ediary...', 117, Array)
+#2 /var/www/ediary.reloaded/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 1, 'Allowed memory ...', '/var/www/ediary...', 117, Array)
+#3 /var/www/ediary.reloaded/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-01-17 13:14:19 Error: [MissingActionException] Action PagesController::pages() could not be found.
+Exception Attributes: array (
+  'controller' => 'PagesController',
+  'action' => 'pages',
+)
+Request URL: /pages/pages/load
+Stack Trace:
+#0 /var/www/ediary.reloaded/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/ediary.reloaded/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#2 /var/www/ediary.reloaded/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-01-17 18:06:26 Error: [MissingActionException] Action PagesController::pages() could not be found.
+Exception Attributes: array (
+  'controller' => 'PagesController',
+  'action' => 'pages',
+)
+Request URL: /pages/pages/load
+Stack Trace:
+#0 /var/www/ediary.reloaded/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/ediary.reloaded/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#2 /var/www/ediary.reloaded/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-01-17 18:11:39 Error: Fatal Error (1): Allowed memory size of 134217728 bytes exhausted (tried to allocate 62914560 bytes) in [/var/www/ediary.reloaded/lib/Cake/basics.php, line 117]
+2015-01-17 18:11:39 Error: [FatalErrorException] Allowed memory size of 134217728 bytes exhausted (tried to allocate 62914560 bytes)
+Request URL: /pages/save
+Stack Trace:
+#0 /var/www/ediary.reloaded/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Allowed memory ...', '/var/www/ediary...', 117)
+#1 [internal function]: ErrorHandler::handleError(1, 'Allowed memory ...', '/var/www/ediary...', 117, Array)
+#2 /var/www/ediary.reloaded/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 1, 'Allowed memory ...', '/var/www/ediary...', 117, Array)
+#3 /var/www/ediary.reloaded/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-01-17 18:11:39 Error: [MissingActionException] Action PagesController::pages() could not be found.
+Exception Attributes: array (
+  'controller' => 'PagesController',
+  'action' => 'pages',
+)
+Request URL: /pages/pages/load
+Stack Trace:
+#0 /var/www/ediary.reloaded/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/ediary.reloaded/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#2 /var/www/ediary.reloaded/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-01-17 18:12:32 Error: Fatal Error (1): Allowed memory size of 134217728 bytes exhausted (tried to allocate 62914560 bytes) in [/var/www/ediary.reloaded/lib/Cake/basics.php, line 117]
+2015-01-17 18:12:32 Error: [FatalErrorException] Allowed memory size of 134217728 bytes exhausted (tried to allocate 62914560 bytes)
+Request URL: /pages/save
+Stack Trace:
+#0 /var/www/ediary.reloaded/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Allowed memory ...', '/var/www/ediary...', 117)
+#1 [internal function]: ErrorHandler::handleError(1, 'Allowed memory ...', '/var/www/ediary...', 117, Array)
+#2 /var/www/ediary.reloaded/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 1, 'Allowed memory ...', '/var/www/ediary...', 117, Array)
+#3 /var/www/ediary.reloaded/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-01-17 18:12:32 Error: [MissingActionException] Action PagesController::pages() could not be found.
+Exception Attributes: array (
+  'controller' => 'PagesController',
+  'action' => 'pages',
+)
+Request URL: /pages/pages/load
+Stack Trace:
+#0 /var/www/ediary.reloaded/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/ediary.reloaded/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#2 /var/www/ediary.reloaded/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-01-19 23:01:59 Error: Fatal Error (1): Allowed memory size of 134217728 bytes exhausted (tried to allocate 62914560 bytes) in [/var/www/ediary.reloaded/lib/Cake/basics.php, line 117]
+2015-01-19 23:01:59 Error: [FatalErrorException] Allowed memory size of 134217728 bytes exhausted (tried to allocate 62914560 bytes)
+Request URL: /pages/save
+Stack Trace:
+#0 /var/www/ediary.reloaded/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Allowed memory ...', '/var/www/ediary...', 117)
+#1 [internal function]: ErrorHandler::handleError(1, 'Allowed memory ...', '/var/www/ediary...', 117, Array)
+#2 /var/www/ediary.reloaded/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 1, 'Allowed memory ...', '/var/www/ediary...', 117, Array)
+#3 /var/www/ediary.reloaded/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-01-19 23:02:00 Error: [MissingActionException] Action PagesController::pages() could not be found.
+Exception Attributes: array (
+  'controller' => 'PagesController',
+  'action' => 'pages',
+)
+Request URL: /pages/pages/load
+Stack Trace:
+#0 /var/www/ediary.reloaded/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/ediary.reloaded/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#2 /var/www/ediary.reloaded/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-01-19 23:02:14 Error: Fatal Error (1): Allowed memory size of 134217728 bytes exhausted (tried to allocate 62914560 bytes) in [/var/www/ediary.reloaded/lib/Cake/basics.php, line 117]
+2015-01-19 23:02:14 Error: [FatalErrorException] Allowed memory size of 134217728 bytes exhausted (tried to allocate 62914560 bytes)
+Request URL: /pages/save
+Stack Trace:
+#0 /var/www/ediary.reloaded/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Allowed memory ...', '/var/www/ediary...', 117)
+#1 [internal function]: ErrorHandler::handleError(1, 'Allowed memory ...', '/var/www/ediary...', 117, Array)
+#2 /var/www/ediary.reloaded/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 1, 'Allowed memory ...', '/var/www/ediary...', 117, Array)
+#3 /var/www/ediary.reloaded/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-01-19 23:02:14 Error: [MissingActionException] Action PagesController::pages() could not be found.
+Exception Attributes: array (
+  'controller' => 'PagesController',
+  'action' => 'pages',
+)
+Request URL: /pages/pages/load
+Stack Trace:
+#0 /var/www/ediary.reloaded/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/ediary.reloaded/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#2 /var/www/ediary.reloaded/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-01-19 23:04:17 Error: Fatal Error (1): Allowed memory size of 134217728 bytes exhausted (tried to allocate 62914560 bytes) in [/var/www/ediary.reloaded/lib/Cake/basics.php, line 117]
+2015-01-19 23:04:17 Error: [FatalErrorException] Allowed memory size of 134217728 bytes exhausted (tried to allocate 62914560 bytes)
+Request URL: /pages/save
+Stack Trace:
+#0 /var/www/ediary.reloaded/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Allowed memory ...', '/var/www/ediary...', 117)
+#1 [internal function]: ErrorHandler::handleError(1, 'Allowed memory ...', '/var/www/ediary...', 117, Array)
+#2 /var/www/ediary.reloaded/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 1, 'Allowed memory ...', '/var/www/ediary...', 117, Array)
+#3 /var/www/ediary.reloaded/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-01-19 23:04:17 Error: [MissingActionException] Action PagesController::pages() could not be found.
+Exception Attributes: array (
+  'controller' => 'PagesController',
+  'action' => 'pages',
+)
+Request URL: /pages/pages/load
+Stack Trace:
+#0 /var/www/ediary.reloaded/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/ediary.reloaded/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#2 /var/www/ediary.reloaded/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-01-19 23:04:37 Error: Fatal Error (1): Allowed memory size of 134217728 bytes exhausted (tried to allocate 62914560 bytes) in [/var/www/ediary.reloaded/lib/Cake/basics.php, line 117]
+2015-01-19 23:04:37 Error: [FatalErrorException] Allowed memory size of 134217728 bytes exhausted (tried to allocate 62914560 bytes)
+Request URL: /pages/save
+Stack Trace:
+#0 /var/www/ediary.reloaded/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Allowed memory ...', '/var/www/ediary...', 117)
+#1 [internal function]: ErrorHandler::handleError(1, 'Allowed memory ...', '/var/www/ediary...', 117, Array)
+#2 /var/www/ediary.reloaded/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 1, 'Allowed memory ...', '/var/www/ediary...', 117, Array)
+#3 /var/www/ediary.reloaded/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-01-19 23:04:37 Error: [MissingActionException] Action PagesController::pages() could not be found.
+Exception Attributes: array (
+  'controller' => 'PagesController',
+  'action' => 'pages',
+)
+Request URL: /pages/pages/load
+Stack Trace:
+#0 /var/www/ediary.reloaded/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/ediary.reloaded/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#2 /var/www/ediary.reloaded/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-01-19 23:06:40 Error: Fatal Error (1): Allowed memory size of 134217728 bytes exhausted (tried to allocate 62914560 bytes) in [/var/www/ediary.reloaded/lib/Cake/basics.php, line 117]
+2015-01-19 23:06:40 Error: [FatalErrorException] Allowed memory size of 134217728 bytes exhausted (tried to allocate 62914560 bytes)
+Request URL: /pages/save
+Stack Trace:
+#0 /var/www/ediary.reloaded/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Allowed memory ...', '/var/www/ediary...', 117)
+#1 [internal function]: ErrorHandler::handleError(1, 'Allowed memory ...', '/var/www/ediary...', 117, Array)
+#2 /var/www/ediary.reloaded/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 1, 'Allowed memory ...', '/var/www/ediary...', 117, Array)
+#3 /var/www/ediary.reloaded/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-01-19 23:06:40 Error: [MissingActionException] Action PagesController::pages() could not be found.
+Exception Attributes: array (
+  'controller' => 'PagesController',
+  'action' => 'pages',
+)
+Request URL: /pages/pages/load
+Stack Trace:
+#0 /var/www/ediary.reloaded/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/ediary.reloaded/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#2 /var/www/ediary.reloaded/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-01-19 23:45:50 Error: Fatal Error (1): Allowed memory size of 134217728 bytes exhausted (tried to allocate 62914560 bytes) in [/var/www/ediary.reloaded/lib/Cake/basics.php, line 117]
+2015-01-19 23:45:50 Error: [FatalErrorException] Allowed memory size of 134217728 bytes exhausted (tried to allocate 62914560 bytes)
+Request URL: /pages/save
+Stack Trace:
+#0 /var/www/ediary.reloaded/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Allowed memory ...', '/var/www/ediary...', 117)
+#1 [internal function]: ErrorHandler::handleError(1, 'Allowed memory ...', '/var/www/ediary...', 117, Array)
+#2 /var/www/ediary.reloaded/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 1, 'Allowed memory ...', '/var/www/ediary...', 117, Array)
+#3 /var/www/ediary.reloaded/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-01-19 23:55:40 Error: Fatal Error (1): Allowed memory size of 134217728 bytes exhausted (tried to allocate 28739585 bytes) in [/var/www/ediary.reloaded/lib/Cake/basics.php, line 117]
+2015-01-19 23:55:40 Error: [FatalErrorException] Allowed memory size of 134217728 bytes exhausted (tried to allocate 28739585 bytes)
+Request URL: /pages/save
+Stack Trace:
+#0 /var/www/ediary.reloaded/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Allowed memory ...', '/var/www/ediary...', 117)
+#1 [internal function]: ErrorHandler::handleError(1, 'Allowed memory ...', '/var/www/ediary...', 117, Array)
+#2 /var/www/ediary.reloaded/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 1, 'Allowed memory ...', '/var/www/ediary...', 117, Array)
+#3 /var/www/ediary.reloaded/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-01-19 23:55:40 Error: [MissingActionException] Action PagesController::pages() could not be found.
+Exception Attributes: array (
+  'controller' => 'PagesController',
+  'action' => 'pages',
+)
+Request URL: /pages/pages/load
+Stack Trace:
+#0 /var/www/ediary.reloaded/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/ediary.reloaded/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#2 /var/www/ediary.reloaded/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
