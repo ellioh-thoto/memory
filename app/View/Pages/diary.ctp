@@ -42,20 +42,21 @@ endif;
     <!--- right content -->
 
     <div id="right">
-        <div id="top-menu">
-            <?php echo $this->Html->link('Test', array('controller' => 'pages', 'action' => 'save'), array('class' => 'ajax', 'id' => 'ajaxbutton')); ?>
+        <div id="top-menu" style="height: 50px;">
             <h1></h1>
+        </div>
+        <div>
+
+            <form id="idForm" action="/pages/save" method="post" onsubmit="AjaxSaveArticle(); return(false); " style="position: absolute; width: 85%">
 
                 <div class="top-menu-action-buttons">
-                    <input class="btn btn-primary" type="button" value="Save">
+                    <input type="submit" name="submit" value="Save" class="btn btn-primary">
                 </div>
+                <textarea class="ckeditor hidden" name="editorx" cols="70" id="editorx" rows="50"></textarea>
+                <input id="fileSelected" name="fileSelected" value="" style="display:block">
 
-                <div>
 
-
-                        <textarea class="ckeditor hidden" name="editorx" cols="70" id="editorx" rows="50"></textarea>
-
-                    <?php /*if (isset($fileContents)) : ?>
+                <?php /*if (isset($fileContents)) : ?>
                         <?php foreach ($fileContents as $i => $fileContent): ?>
                             <div>
                                 <textarea class="ckeditor hidden" name="editor<?php echo $i; ?>" cols="70" id="editor<?php echo $i; ?>"
@@ -65,10 +66,10 @@ endif;
                             </div>
 
                         <?php endforeach; */ ?>
+            </form>
+
+        </div>
+        <div class="clear"></div>
 
 
-                </div>
-                <div class="clear"></div>
-            </div>
-
-<div id="test"></div>
+        <div id="test"></div>

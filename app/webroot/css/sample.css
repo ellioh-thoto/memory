@@ -49,6 +49,7 @@
 .top-menu-action-buttons{
     float: right;
     width: 200px;
+    text-align: right;
 }
 
 *{

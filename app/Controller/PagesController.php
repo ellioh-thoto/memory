@@ -123,14 +123,27 @@ class PagesController extends AppController
     public function save()
     {
 
-        $filename = base64_decode($this->request->pass[0]);
-        $filenameContent = base64_decode($this->request->pass[1]);
+//debug ($this);die;
+//        $filename = base64_decode($this->request->pass[0]);
+//        $filenameContent = base64_decode($this->request->pass[1]);
+
+        $filename = $this->params->data['fileSelected'];
+        $filenameContent = $this->params->data['editorx'];
+
 
         $file = new File($this->noteDir->pwd() . DS . $filename . ".html");
-//        $file->write($filenameContent);
+
+
+//echo (print_r($this->params->data['editorx'],1));
+
+//echo (print_r($this->params->data['fileSelected'],1));
+
+        $file->write($filenameContent);
+
+//        debug($filenameContent);
 
         $file->close();
-        echo json_encode("Done! " . $this->noteDir->pwd() . DS . $filename);
+        echo ($filename);
         exit();
     }
 
@@ -179,7 +192,7 @@ class PagesController extends AppController
             die();
         }
 
-        $fileContents = Array();
+
         $notes = Array();
 
         // Get short file name

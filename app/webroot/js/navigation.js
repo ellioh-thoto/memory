@@ -2,34 +2,33 @@
  * Created by elron on 15/01/15.
  */
 
-var selected = 'none';
-var selected_filename = '';
+var selected_filename = 'none';
 $(document).ready(function () {
-
 
     // Load selected item
 
     AjaxLoadArticle();
 
-    // On click dislay selected content
+    // On click display selected content
+
     $('.left_menu_item').click(function () {
         AjaxLoadArticle($(this).text());
     });
 
     /*
-     * Manage Ajax calls
+     * Manage save article with ajax
      */
-    $('.ajax').on('click', function () {
+    //$('.ajax').on('click', function () {
+    //    AjaxSaveArticle();
+    //    return(false);
+    //});
+    //
+    //$('#idForm').submit(function () {
+    //    AjaxSaveArticle();
+    //    return(false);
+    //});
 
-        console.log('eth : passed  ');
-        /* todo : Pass data with POST. ADD security key */
-        $.get($(this).attr('href') + '/' + btoa(selected_filename) + '/' + btoa($(selected).text()),
-            {},
-            function (data) {
-                alert("RETURN : " + data);
-            });
-        return false;
-    });
+
 });
 
 
@@ -38,7 +37,7 @@ $(document).ready(function () {
  * Set title
  */
 function AjaxLoadArticle(filename){
-    console.info('eth : load start...  ');
+    console.info('eth : load of "'+filename+'" start...  ');
     var param;
     if(typeof filename === 'undefined')
         param = "";
@@ -64,6 +63,55 @@ function AjaxLoadArticle(filename){
 
             $('#top-menu h1').text(dataObject.noteSelected);
 
+            // Set current article
+
+            selected_filename = dataObject.noteSelected;
+
+            $('#fileSelected').val(selected_filename);
+
         });
+
+}
+
+function AjaxSaveArticle(){
+     console.info('Save start...');
+
+        //var editor = CKEDITOR.instances.editorx;
+        //var editorContent  = editor.getData();
+        //var encryptedEditorContent = btoa(editorContent);
+    //alert(filename);
+    //alert(encryptedEditorContent);
+    //console.log(filename);
+    //console.log(editorContent);
+    //console.log('pages/save/' + btoa(filename) + '/' + btoa(editorContent));
+
+        ///* todo : Pass data with POST. ADD security key */
+        //$.get('pages/save' ,
+        //    {
+        //        title: btoa(filename),
+        //        //content : editorContent
+        //    },
+        //    function (data) {
+        //        alert("RETURN : " + data);
+        //    });
+
+    //var cars = [
+    //    "Saab",
+    //    "Volvo",
+    //    "BMW"
+    //];
+    $.ajax({
+        type: "POST",
+        url: 'pages/save',
+        data: $("#idForm").serialize(), // serializes the form's elements.
+
+        success: function(data)
+        {
+            alert(data); // show response from the php script.
+            //AjaxLoadArticle(selected_filename);
+        }
+    }) ;
+        console.info('Save end!');
+    //return (false);
 
 }
