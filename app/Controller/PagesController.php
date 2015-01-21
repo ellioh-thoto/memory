@@ -122,28 +122,26 @@ class PagesController extends AppController
      */
     public function save()
     {
-
-//debug ($this);die;
-//        $filename = base64_decode($this->request->pass[0]);
-//        $filenameContent = base64_decode($this->request->pass[1]);
+        // Get param
 
         $filename = $this->params->data['fileSelected'];
         $filenameContent = $this->params->data['editorx'];
+//error_log('$filename : '.$filename);
+//error_log('$filenameContent : '.$filenameContent);
 
+        // Open file
 
         $file = new File($this->noteDir->pwd() . DS . $filename . ".html");
 
-
-//echo (print_r($this->params->data['editorx'],1));
-
-//echo (print_r($this->params->data['fileSelected'],1));
+        // Write file
 
         $file->write($filenameContent);
 
 //        debug($filenameContent);
 
         $file->close();
-        echo ($filename);
+//        echo ($filename);
+        echo "Done!";
         exit();
     }
 

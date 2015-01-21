@@ -23,10 +23,10 @@ $(document).ready(function () {
     //    return(false);
     //});
     //
-    //$('#idForm').submit(function () {
-    //    AjaxSaveArticle();
-    //    return(false);
-    //});
+    $('#idForm').submit(function () {
+        AjaxSaveArticle();
+        return(false);
+    });
 
 
 });
@@ -36,14 +36,14 @@ $(document).ready(function () {
  * Load article by ajax
  * Set title
  */
-function AjaxLoadArticle(filename){
-    console.info('eth : load of "'+filename+'" start...  ');
+function AjaxLoadArticle(filename) {
+    console.info('eth : load of "' + filename + '" start...  ');
     var param;
-    if(typeof filename === 'undefined')
+    if (typeof filename === 'undefined')
         param = "";
     else
-        param = "/" +btoa(filename);
-    $.get('pages/load'+ param,
+        param = "/" + btoa(filename);
+    $.get('pages/load' + param,
         {},
         function (data) {
 
@@ -73,46 +73,27 @@ function AjaxLoadArticle(filename){
 
 }
 
-function AjaxSaveArticle(){
-     console.info('Save start...');
+function AjaxSaveArticle() {
+    console.info('Save start...');
 
-        //var editor = CKEDITOR.instances.editorx;
-        //var editorContent  = editor.getData();
-        //var encryptedEditorContent = btoa(editorContent);
-    //alert(filename);
-    //alert(encryptedEditorContent);
-    //console.log(filename);
-    //console.log(editorContent);
-    //console.log('pages/save/' + btoa(filename) + '/' + btoa(editorContent));
-
-        ///* todo : Pass data with POST. ADD security key */
-        //$.get('pages/save' ,
-        //    {
-        //        title: btoa(filename),
-        //        //content : editorContent
-        //    },
-        //    function (data) {
-        //        alert("RETURN : " + data);
-        //    });
+    var editor = CKEDITOR.instances.editorx;
+    var editorContent = editor.getData();
 
 
-    //var cars = [
-    //    "Saab",
-    //    "Volvo",
-    //    "BMW"
-    //];
     $.ajax({
         type: "POST",
         url: 'pages/save',
-        data: $("#idForm").serialize(), // serializes the form's elements.
+        data: {
+            "fileSelected": selected_filename,
+            "editorx": editorContent
 
-        success: function(data)
-        {
+        }, // serializes the form's elements.
+
+        success: function (data) {
             alert(data); // show response from the php script.
             //AjaxLoadArticle(selected_filename);
         }
-    }) ;
-        console.info('Save end!');
-    //return (false);
+    });
+    console.info('Save end!');
 
 }

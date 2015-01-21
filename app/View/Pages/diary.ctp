@@ -47,25 +47,12 @@ endif;
         </div>
         <div>
 
-            <form id="idForm" action="/pages/save" method="post" onsubmit="AjaxSaveArticle(); return(false); " style="position: absolute; width: 85%">
+            <form id="idForm" action="/pages/save" method="post"  style="position: absolute; width: 85%">
 
                 <div class="top-menu-action-buttons">
-                    <input type="submit" name="submit" value="Save" class="btn btn-primary">
+                    <input type="submit" name="submit" value="Save" class="btn">
                 </div>
                 <textarea class="ckeditor hidden" name="editorx" cols="70" id="editorx" rows="50"></textarea>
-                <input id="fileSelected" name="fileSelected" value="" style="display:block">
-
-
-                <?php /*if (isset($fileContents)) : ?>
-                        <?php foreach ($fileContents as $i => $fileContent): ?>
-                            <div>
-                                <textarea class="ckeditor hidden" name="editor<?php echo $i; ?>" cols="70" id="editor<?php echo $i; ?>"
-                          rows="50">
-                                    <?php echo $fileContent; ?>
-                                </textarea>
-                            </div>
-
-                        <?php endforeach; */ ?>
             </form>
 
         </div>
