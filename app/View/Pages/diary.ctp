@@ -38,24 +38,32 @@ endif;
         <?php endif; ?>
     </div>
 
-
-    <!--- right content -->
-
     <div id="right">
+    <!--- right content -->
+    <form id="idForm" action="/pages/save" method="post"  style="position: absolute; width: 85%">
+
         <div id="top-menu" style="height: 50px;">
-            <h1></h1>
+
+            <h1 id="top-menu-title"></h1>
+            <div style="diplay:block;position:absolute"> <input  size="100" type="text" id="top-menu-new-title" name="top-menu-new-title" value="" placeholder="My new note title..." class="hidden"/>
+                </div>
         </div>
         <div>
 
-            <form id="idForm" action="/pages/save" method="post"  style="position: absolute; width: 85%">
+
 
                 <div class="top-menu-action-buttons">
+
+                    <input type="submit" name="submit" value="New" class="btn">
+
                     <input type="submit" name="submit" value="Save" class="btn">
                 </div>
                 <textarea class="ckeditor hidden" name="editorx" cols="70" id="editorx" rows="50"></textarea>
-            </form>
 
-        </div>
+
+
+    </form>
+    </div>
         <div class="clear"></div>
 
 
