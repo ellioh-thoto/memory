@@ -3,39 +3,7 @@
  */
 
 var selected_filename = 'none';
-$(document).ready(function () {
 
-    // Load selected item
-
-    AjaxLoadArticle();
-
-    // On click display selected content
-
-    $('.left_menu_item').click(function () {
-        activateModeEdition(false);
-        AjaxLoadArticle($(this).text());
-    });
-
-    /*
-     * Manage save article with ajax
-     */
-    //$('.ajax').on('click', function () {
-    //    AjaxSaveArticle();
-    //    return(false);
-    //});
-    //
-    $('#idForm').submit(function () {
-        AjaxSaveArticle();
-        return(false);
-    });
-
-    $('#top-menu-button-new').click(function(){
-        if ($(this).val() == 'New')
-            activateModeEdition(true);
-        else // Cancel
-            activateModeEdition(false);
-    });
-});
 
 
 /**
@@ -59,15 +27,8 @@ function AjaxLoadArticle(filename) {
             // Set textarea content
 
             var dataObject = jQuery.parseJSON(data);
-            //
-            //var editor = CKEDITOR.instances.editorx;
-            //editor.setData(dataObject.selectedFileContent);
             resetEditor(dataObject.selectedFileContent);
-            //$('#test').text(dataObject.selectedFileContent);
             console.info('eth : Article loaded! ');
-
-            //$('.ckeditor').parent('div').hide();
-            //$(selected).parent('div').show();
 
             // Display title of selected content
 
@@ -76,16 +37,15 @@ function AjaxLoadArticle(filename) {
             // Set current article
 
             selected_filename = dataObject.noteSelected;
-
             $('#fileSelected').val(selected_filename);
 
-            // Remove edit items
-            //displayEditionInput(false);
-
         });
-
 }
 
+/**
+ * Display notification
+ * @param data
+ */
 function displayNotification(data) {
         $('#notification').append(data);
     $('#notification').slideDown();
@@ -95,12 +55,15 @@ function displayNotification(data) {
         $('#notification').slideUp().text("");
     }, 1000);
 }
+
+/**
+ * Save article
+ */
 function AjaxSaveArticle() {
     console.info('Save start...');
 
     var editor = CKEDITOR.instances.editorx;
     var editorContent = editor.getData();
-console.log('input : '+$("#top-menu-new-title").val());
 
     $.ajax({
         type: "POST",
@@ -129,6 +92,10 @@ console.log('input : '+$("#top-menu-new-title").val());
 
 }
 
+/**
+ * Display new article title input
+ * @param pActivate
+ */
 function displayEditionInput(pActivate){
     if (typeof(pActivate) == "undefined") {
         activpActivateate = false;
@@ -142,11 +109,19 @@ function displayEditionInput(pActivate){
         }
 }
 
+/**
+ * Clear editor
+ * @param pContent
+ */
 function resetEditor(pContent){
     var editor = CKEDITOR.instances.editorx;
     editor.setData(pContent);
 }
 
+/**
+ * Activate edit mode
+ * @param pActivate
+ */
 function activateModeEdition(pActivate){
     if(typeof (pActivate) == "undefined")
     {
@@ -169,3 +144,33 @@ function activateModeEdition(pActivate){
         AjaxLoadArticle(selected_filename);
     }
 }
+
+$(document).ready(function () {
+
+    // Load selected item
+
+    AjaxLoadArticle();
+
+    // On click display selected content
+
+    $('.left_menu_item').click(function () {
+        activateModeEdition(false);
+        AjaxLoadArticle($(this).text());
+    });
+
+    // Manage save article with ajax
+
+    $('#idForm').submit(function () {
+        AjaxSaveArticle();
+        return(false);
+    });
+
+    // Manage new article
+
+    $('#top-menu-button-new').click(function(){
+        if ($(this).val() == 'New')
+            activateModeEdition(true);
+        else // Cancel
+            activateModeEdition(false);
+    });
+});
