@@ -39,37 +39,36 @@ endif;
         <?php endif; ?>
     </div>
 
-    <div id="right" style="display:block;position:absolute; width: 100%">
-    <!--- right content -->
-    <form id="idForm" action="/pages/save" method="post"  style="position: absolute; width: 85%">
 
-        <div id="top-menu" style="height: 50px;">
+    <div id="right" style="position:absolute; width: 100%">
+        <!--- right content -->
+        <form id="idForm" action="/pages/save" method="post" style="position: absolute; width: 85%">
 
-            <h1 id="top-menu-title"></h1>
-            <div style="diplay:block;position:absolute"> <input  size="100" type="text" id="top-menu-new-title" name="top-menu-new-title" value="" placeholder="My new note title..." class="hidden"/>
+            <div id="top-menu" style="height: 50px; width: auto">
+
+                <div class="top-menu-action-buttons" style="display: inline-block; float: right; width: 200px ">
+                    <input type="button" name="submit" onclick="$('#idForm').submit();" value="Save" class="btn"
+                           style="">
+                    <input id="top-menu-button-new" type="button" name="New" value="New" class="btn" style=" ">
                 </div>
 
-            <div id="top-menu-new-title" style="display:none;position:absolute">
-                <input  size="100" type="text"  name="top-menu-new-title-input" id="top-menu-new-title-input" placeholder="My new note title..." style="display:block"></input>
+                <div style="padding-bottom: 40px; "><h1 id="top-menu-title" style="margin-top:0; "></h1>
+                    <input size="100" type="text" id="top-menu-new-title"
+                           name="top-menu-new-title" value=""
+                           placeholder="My new note title..." class="hidden"/>
+                </div>
+
             </div>
-        </div>
-        <div>
+            <div style="margin-top: 20px">
 
-
-
-                <div class="top-menu-action-buttons">
-
-                    <input id="top-menu-button-new" type="button" name="New" value="New" class="btn">
-
-                    <input type="submit" name="submit" value="Save" class="btn">
-                </div>
                 <textarea class="ckeditor hidden" name="editorx" cols="70" id="editorx" rows="50"></textarea>
+            </div>
 
 
-
-    </form>
+        </form>
     </div>
-        <div class="clear"></div>
+</div>
+
 
 
 

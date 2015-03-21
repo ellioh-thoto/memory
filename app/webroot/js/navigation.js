@@ -103,6 +103,7 @@ function displayEditionInput(pActivate){
         if (pActivate) {
             $('#top-menu-title').hide();
             $('#top-menu-new-title').fadeIn();
+            $('#top-menu-new-title').focus();
         } else {
             $('#top-menu-new-title').hide();
             $('#top-menu-title').fadeIn();
