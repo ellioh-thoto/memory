@@ -100,14 +100,14 @@ function AjaxSaveArticle() {
 
     var editor = CKEDITOR.instances.editorx;
     var editorContent = editor.getData();
-console.log('input : '+$('#top-menu-new-title-input').val());
+console.log('input : '+$("#top-menu-new-title").val());
 
     $.ajax({
         type: "POST",
         url: 'pages/save',
         data: {
             "fileSelected": selected_filename,
-            "top-menu-new-title-input": $('#top-menu-new-title-input').val(),
+            "top-menu-new-title-input": $("#top-menu-new-title").val(),
             "editorx": editorContent
 
         }, // serializes the form's elements.
@@ -115,7 +115,14 @@ console.log('input : '+$('#top-menu-new-title-input').val());
         success: function (data) {
             //alert(data); // show response from the php script.
             displayNotification(data);
-            //AjaxLoadArticle(selected_filename);
+            if (data == "File created!"){
+                selected_filename = $('#top-menu-new-title').val();
+                $('#top-menu-new-title').val("");
+                AjaxLoadArticle(selected_filename);
+                activateModeEdition(false);
+            }
+
+
         }
     });
     console.info('Save end!');
@@ -147,6 +154,7 @@ function activateModeEdition(pActivate){
     }
 
     if (pActivate){
+        $("#top-menu-new-title").val("");
         displayEditionInput(true);
         $('#top-menu-button-new').val('Cancel');
         resetEditor("");

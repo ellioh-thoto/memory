@@ -50,7 +50,7 @@ endif;
                 </div>
 
             <div id="top-menu-new-title" style="display:none;position:absolute">
-                <input  size="100" type="text"  name="top-menu-new-title-input" id="#top-menu-new-title-input" placeholder="My new note title..." style="display:block"></input>
+                <input  size="100" type="text"  name="top-menu-new-title-input" id="top-menu-new-title-input" placeholder="My new note title..." style="display:block"></input>
             </div>
         </div>
         <div>

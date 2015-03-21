@@ -93,7 +93,6 @@ class PagesController extends AppController
         // --- eth --
 
 
-
         $files = $this->noteDir->find('.*\.html');
 
 //        $fileContents = Array();
@@ -126,29 +125,27 @@ class PagesController extends AppController
 
         if (isset($this->params->data['fileSelected']))
             $filename = $this->params->data['fileSelected'];
-        if(isset ($this->params->data['editorx']))
+        if (isset ($this->params->data['editorx']))
             $filenameContent = $this->params->data['editorx'];
-        if(isset($this->params->data['top-menu-new-title']))
-        $filenameNewTitle = $this->params->data['top-menu-new-title-input'];
+        if (isset($this->params->data['top-menu-new-title-input']))
+            $filenameNewTitle = $this->params->data['top-menu-new-title-input'];
 
-        if (!empty($filenameNewTitle)){
+        if (!empty($filenameNewTitle)) {
             $filename = $filenameNewTitle;
+
+            // text file exist
+
+            $file = new File($this->noteDir->pwd() . DS . $filename . ".html");
+
+
+            if ($file->exists() && !empty($filenameNewTitle)) {
+                echo 'File already exists!';
+                exit();
+            }
+
         }
 
-//error_log('$filename : '.$filename);
-//error_log('$filenameContent : '.$filenameContent);
-
-        // Open file
-
-        $file = new File($this->noteDir->pwd() . DS . $filename . ".html");
-
-
-        // When we create a new file don't erase a existing file
-
-        if ($file->exists() && !empty($filenameNewTitle)){
-            echo 'File already exists!';
-            exit();
-        }
+        $file = new File($this->noteDir->pwd() . DS . $filename . ".html", true);
 
         // Write file
 
@@ -158,7 +155,10 @@ class PagesController extends AppController
 
         $file->close();
 //        echo ($filename);
-        echo "Done!";
+        if (!empty($filenameNewTitle)) {
+            echo "File created!";
+        } else
+            echo "Updated!";
         exit();
     }
 
@@ -176,8 +176,8 @@ class PagesController extends AppController
     {
         // Get filename from params
 
-        if(isset($this->request->pass))
-            if(isset($this->request->pass[0]))
+        if (isset($this->request->pass))
+            if (isset($this->request->pass[0]))
                 $selectedFilename = base64_decode($this->request->pass[0]);
 
         // Get current filename from Sesssion
@@ -191,10 +191,9 @@ class PagesController extends AppController
         // Get current file from articles directory
 
         if (!empty($selectedFilename)) {
-            $tmp = $this->noteDir->find('.*^'.$selectedFilename.'\.html');
+            $tmp = $this->noteDir->find('.*^' . $selectedFilename . '\.html');
             $fileSelected = $tmp[0];
-        }
-        else {
+        } else {
 
             //If none selected we take the first artcle as selected
             $fileSelected = $filenames[0];
@@ -202,8 +201,8 @@ class PagesController extends AppController
 
         // Warning case : file set in Session not found
 
-        if (empty($fileSelected)){
-            echo json_encode(array('code'=>2, 'message' => 'Warning! Selected file from Session not found') );
+        if (empty($fileSelected)) {
+            echo json_encode(array('code' => 2, 'message' => 'Warning! Selected file from Session not found'));
             die();
         }
 
@@ -238,7 +237,8 @@ class PagesController extends AppController
      * Delete a note
      * @param filename
      */
-    public function delete(){
+    public function delete()
+    {
         $filename = base64_decode($this->request->pass[0]);
         $file = new File($this->noteDir->pwd() . DS . $filename . ".html");
         $file->delete();
