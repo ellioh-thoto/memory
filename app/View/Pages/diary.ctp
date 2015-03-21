@@ -21,7 +21,8 @@ if (Configure::read('debug') > 0):
 endif;
 ?>
 
-
+<div class="alert alert-success hidden" id="notification" role="alert">
+</div>
 <div id="container">
 
     <!-- left menu -->
@@ -38,7 +39,7 @@ endif;
         <?php endif; ?>
     </div>
 
-    <div id="right">
+    <div id="right" style="display:block;position:absolute; width: 100%">
     <!--- right content -->
     <form id="idForm" action="/pages/save" method="post"  style="position: absolute; width: 85%">
 
@@ -47,6 +48,10 @@ endif;
             <h1 id="top-menu-title"></h1>
             <div style="diplay:block;position:absolute"> <input  size="100" type="text" id="top-menu-new-title" name="top-menu-new-title" value="" placeholder="My new note title..." class="hidden"/>
                 </div>
+
+            <div id="top-menu-new-title" style="display:none;position:absolute">
+                <input  size="100" type="text"  name="top-menu-new-title-input" id="#top-menu-new-title-input" placeholder="My new note title..." style="display:block"></input>
+            </div>
         </div>
         <div>
 
@@ -54,7 +59,7 @@ endif;
 
                 <div class="top-menu-action-buttons">
 
-                    <input type="submit" name="submit" value="New" class="btn">
+                    <input id="top-menu-button-new" type="button" name="New" value="New" class="btn">
 
                     <input type="submit" name="submit" value="Save" class="btn">
                 </div>
@@ -67,4 +72,4 @@ endif;
         <div class="clear"></div>
 
 
-        <div id="test"></div>
+

@@ -19,7 +19,7 @@
 $cakeDescription = __d('cake_dev', 'CakePHP: the rapid development php framework -eth');
 ?>
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
 	<?php echo $this->Html->charset(); ?>
 	<title>
@@ -31,7 +31,7 @@ $cakeDescription = __d('cake_dev', 'CakePHP: the rapid development php framework
 
 
 		echo $this->Html->css('sample');
-    echo $this->Html->css('skins/bootstrap/css/bootstrap.css');
+//    echo $this->Html->css('skins/bootstrap/css/bootstrap.css');
     echo $this->Html->css('cake.generic');
     echo $this->Html->css('//fonts.googleapis.com/css?family=Gloria+Hallelujah');
     echo $this->Html->css('http://fonts.googleapis.com/css?family=Patrick+Hand');
@@ -73,7 +73,6 @@ $cakeDescription = __d('cake_dev', 'CakePHP: the rapid development php framework
 			<?php echo $this->Session->flash(); ?>
 
 			<?php echo $this->fetch('content'); ?>
-		</div>
 		<div id="footer">
 			<?php echo $this->Html->link(
 					$this->Html->image('cake.power.gif', array('alt' => $cakeDescription, 'border' => '0')),

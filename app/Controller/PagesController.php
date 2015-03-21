@@ -124,14 +124,31 @@ class PagesController extends AppController
     {
         // Get param
 
-        $filename = $this->params->data['fileSelected'];
-        $filenameContent = $this->params->data['editorx'];
+        if (isset($this->params->data['fileSelected']))
+            $filename = $this->params->data['fileSelected'];
+        if(isset ($this->params->data['editorx']))
+            $filenameContent = $this->params->data['editorx'];
+        if(isset($this->params->data['top-menu-new-title']))
+        $filenameNewTitle = $this->params->data['top-menu-new-title-input'];
+
+        if (!empty($filenameNewTitle)){
+            $filename = $filenameNewTitle;
+        }
+
 //error_log('$filename : '.$filename);
 //error_log('$filenameContent : '.$filenameContent);
 
         // Open file
 
         $file = new File($this->noteDir->pwd() . DS . $filename . ".html");
+
+
+        // When we create a new file don't erase a existing file
+
+        if ($file->exists() && !empty($filenameNewTitle)){
+            echo 'File already exists!';
+            exit();
+        }
 
         // Write file
 
