@@ -34,14 +34,17 @@ $cakeDescription = __d('cake_dev', 'CakePHP: the rapid development php framework
 //    echo $this->Html->css('skins/bootstrap/css/bootstrap.css');
 //    echo $this->Html->css('cake.generic');
     echo $this->Html->css('//fonts.googleapis.com/css?family=Gloria+Hallelujah');
-    echo $this->Html->css('http://fonts.googleapis.com/css?family=Patrick+Hand');
+//    echo $this->Html->css('http://fonts.googleapis.com/css?family=Patrick+Hand');
 //    echo $this->Html->css('../debug_kit/css/debug_toolbar.css');
 
         echo $this->Html->script('ckeditor');
         echo $this->Html->script('//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js');
         echo $this->Html->script('adapters/jquery.js');
     echo $this->Html->script('navigation.js');
-//        echo $this->Html->script('http://s1.ckeditor.com/sites/default/files/advagg_css/css__MkdQlYKKNTEDe5b_jl9tuxsFB8G4YXA2ZM0bQzB5-dY__NDcGhWz1u4SfLX7snS8GbAQCur1j1Onks2nODezNrHw__G95gm9NlfJgZe9SHqTCtegdMymJWWUC9WAzkpiM_1xo.css');
+    echo $this->Html->script('../tree/sources/dhtmlxCommon/codebase/dhtmlxcommon.js');
+    echo $this->Html->script('./tree/sources/dhtmlxTree/codebase/dhtmlxtree.js');
+    echo $this->Html->script('./tree/sources/dhtmlxTree/codebase/ext/dhtmlxtree_start.js');
+    //        echo $this->Html->script('http://s1.ckeditor.com/sites/default/files/advagg_css/css__MkdQlYKKNTEDe5b_jl9tuxsFB8G4YXA2ZM0bQzB5-dY__NDcGhWz1u4SfLX7snS8GbAQCur1j1Onks2nODezNrHw__G95gm9NlfJgZe9SHqTCtegdMymJWWUC9WAzkpiM_1xo.css');
 
 		echo $this->fetch('meta');
 		echo $this->fetch('css');

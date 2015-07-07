@@ -29,8 +29,26 @@ endif;
 
 
     <div id="left">
+        <div class="dhtmlxTree" // for automatic conversion
+        id="treeboxbox_tree"
+        setImagePath="[full path to this category]/imgs/"
+        style="width:250px; height:218px;overflow:auto;">
+        <ul>
+            <li>Root
+                <ul>
+                    <li>Child1
+                        <ul>
+                            <li>Child 1-1</li>
+                        </ul>
+                    <li>Child2</li>
+                    <li><b>Bold</b> <i>Italic</i></li>
+                </ul>
+            </li>
+        </ul>
+    </div>
         <?php if (isset($notes)) : ?>
             <?php foreach ($notes as $i => $note): ?>
+
                 <div class="left_menu_item_parent"><a class="left_menu_item"
                                                       href="#editor<?php echo $i; ?>"><?php echo $note ?></a></div>
             <? endforeach; ?>
@@ -68,7 +86,9 @@ endif;
         </form>
     </div>
 </div>
-
+<script>
+    var myTree = dhtmlXTreeFromHTML("treeboxbox_tree"); // for script conversion
+</script>
 
 
 
